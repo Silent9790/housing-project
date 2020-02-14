@@ -1,35 +1,25 @@
 import React from "react";
 
 function Navbar({ children }) {
+
     return (
         <div>
-            <nav >
-                {/* I think that the width or the flexing of the nav bar would be fixed here  */}
-                <div className="nav-wrapper red darken-2">
-             
-                    <div style={{ height: 150, clear: "both" }}>
-                        < div className="navbar teal lighten-2" >
-                            {/*  */}
-                            {/* <link to="../../../public/logo.png" className="brand-logo"> NAIT Housing Authority</link> */}
-                            <ul id="nav-mobile" className="right hide-on-med-and-down">
-                                <li><a href="sass.html">Home</a></li>
-                                <li><a href="sass.html">Grants</a></li>
-                                <li><a href="badges.html">Loans</a></li>
-                                <li><a href="collapsible.html">Rentals</a></li>
-                                <li><a href="collapsible.html">IDA</a></li>
-                                <li><a href="collapsible.html">Elders</a></li>
-                                <li><a href="collapsible.html">Locations</a></li>
-                                <li><a href="collapsible.html">Team</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+            <nav className = "navbar red darken-4">
+                {/* <Link to ="../../../public/logo.png" className="brand-logo"> NAIT Housing Authority</Link> */}
+                <ul id="nav-mobile" className="right hide-on-med-and-down">
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./home">Home</a></li>
+                    <li><a href="./grants">Grants</a></li>
+                    <li><a href="./loans">Loans</a></li>
+                    <li><a href="./rentals">Rentals</a></li>
+                    <li><a href="./ida">IDA</a></li>
+                    <li><a href="./elders">Elders</a></li>
+                    <li><a href="./locations">Locations</a></li>
+                    <li><a href="./team">Team</a></li>
+                </ul>
+            </nav>  
         </div >
-
-    );
-
-
+    )
 }
 
 export default Navbar;
