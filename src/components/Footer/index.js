@@ -17,7 +17,7 @@ function Footer({ children }) {
                 <h5 className="white-text ">Links</h5>
                 <ul className = "brown-text text-lighten-2" > 
                     <div className ="col "></div>
-                    <li ><a href="https://www.muckleshootcasino.com/">Casino</a></li>
+                    <li ><a href="https://www.muckleshootcasino.com/" className = "orange-text text-lighten-4">Casino</a></li>
                     <li><a href="https://www.muckleshootbingo.com/">Bingo</a></li>
                     <li><a href="#http://www.muckleshoot.nsn.us/community/news.aspx">Health/Wellness</a></li>
                     <li><a href="http://whiteriveramphitheater.org/">White River Ampitheatre</a></li>
