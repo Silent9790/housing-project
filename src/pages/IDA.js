@@ -1,15 +1,14 @@
-import Navbar from "../components/Navbar";
+import React from "react";
 
 function Ida() {
 
 
           
     return (
-        <div className="container">
-            <h1>IDA</h1>
-       </div >
-
-    );
+        <div>
+          <h1>IDA</h1>
+        </div>
+      );
     
 
 
