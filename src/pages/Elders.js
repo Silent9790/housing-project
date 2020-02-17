@@ -1,17 +1,10 @@
-import Navbar from "../components/Navbar";
+import React from "react";
 
 function Elders() {
-
-    return (
-         
-        <div className="container">
-            <Navbar />
-            <h1>Elders</h1>
-       </div >
-
-    );
-
-
-
+  return (
+    <div>
+      <h1>Elders</h1>
+    </div>
+  );
 }
 export default Elders;

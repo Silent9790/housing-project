@@ -5,8 +5,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import  './materialize/materialize.css';
 // import  './materialize2/css/materialize.min.css';
-// import  './materialize2/css/materialize.js';
-// import  './materialize2/css/materialize.min.js';
 
 
 

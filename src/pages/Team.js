@@ -1,12 +1,12 @@
-import Navbar from "../components/Navbar";
+import React from "react";
 
 function Team() {
 
     return (
-        <div className="container">
-            <h1>Team</h1>
-        </div >
-    );
+        <div>
+          <h1>Team</h1>
+        </div>
+      );
 }
 
 

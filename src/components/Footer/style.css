@@ -1,3 +1,13 @@
 a{
     color: #ffebcd
 }
+.footer-logo{
+    bottom: 100px;
+    width: 50%;
+}
+.white-link{
+    color: white;
+}
+.white-link:hover{
+    color: rgb(209, 209, 209);
+}
