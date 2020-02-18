@@ -7,7 +7,7 @@ function Footer({ children }) {
   return (
     <div className="page-footer brown lighten-3">
 
-      <footer class=" brown lighten-3">
+      <footer className=" brown lighten-3">
         <div className="row center-align">
           <h4 className="white-text">NAIT Housing </h4>
         </div>
