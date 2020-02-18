@@ -6,7 +6,7 @@ import "./style.css";
 function Footer(props) {
   return (
     <div className="page-footer brown lighten-3">
-      <footer class=" brown lighten-3">
+      <footer className=" brown lighten-3">
         <div className="row center-align">
           <h4 className="white-text">Muckleshoot Housing Authority</h4>
         </div>

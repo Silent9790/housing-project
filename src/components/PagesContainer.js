@@ -5,7 +5,6 @@ import Grants from "../pages/Grants";
 import Home from "../pages/Home";
 import IDA from "../pages/IDA";
 import Loans from "../pages/Loans";
-import Locations from "../pages/Locations";
 import NoMatch from "../pages/NoMatch";
 import Rentals from "../pages/Rental";
 import Team from "../pages/Team";
@@ -34,8 +33,6 @@ class PagesContainer extends Component {
       return <IDA />;
     } else if (this.state.currentPage === "Loans") {
       return <Loans />;
-    } else if (this.state.currentPage === "Locations") {
-      return <Locations />;
     } else if (this.state.currentPage === "NoMatch") {
       return <NoMatch />;
     } else if (this.state.currentPage === "Rentals") {

@@ -1,4 +1,9 @@
 .header-logo{
-    width: 40%;
+    width: 90px;
     margin: 0;
+    padding-top: 7px;
+    position: absolute ;
+}
+.logo{
+    padding: 0;
 }
