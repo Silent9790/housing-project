@@ -1,4 +1,6 @@
 import React from "react";
+import Carousel from "../Carousel";
+import Mission from "../MissionStatementCard";
 
 function Jumbotron({ children }) {
   return (
@@ -6,6 +8,8 @@ function Jumbotron({ children }) {
       className="jumbotron"
     >
       {children}
+      <Carousel />
+      <Mission />
     </div>
   );
 }
