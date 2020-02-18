@@ -1,49 +1,97 @@
 import React from "react";
+import Logo from "../../pictures/muckleshootlogo.png"
+import "./style.css"
 // import {Link} from "reacet-router-dom";
 
 function Footer({ children }) {
-    return (
+  return (
+    <div className="page-footer brown lighten-3">
 
-        <div className="page-footer  brown lighten-3">
-            {/* I think that the width or the flexing of the nav bar would be fixed here  */}
-            {/* <div className="container">
-                <div className="row"> */}
-                  <footer class="page-footer brown lighten-3"></footer>
-            <div className="col l6 s12">
-                <h5 className="white-text">NAIT Housing </h5>
-                <p className="grey-text text-lighten-4"> </p>
+      <footer class=" brown lighten-3">
+        <div className="row center-align">
+          <h4 className="white-text">NAIT Housing </h4>
+        </div>
+
+        <div className="row">
+          <div className="col s4 center-align">
+            <h5 className="white-text">Links </h5>
+
+            <div className="row">
+              <div className="col s6">
+                <a className="white-link" href="https://www.muckleshootcasino.com/">Casino</a>
+              </div>
+              <div className="col s6">
+                <a className="white-link" href="https://www.muckleshootbingo.com/">Bingo</a>
+              </div>
             </div>
-            <div className="col l4 offset-l2 s12 ">
-                <h5 className="white-text ">Links</h5>
-                <ul className = "brown-text text-lighten-2" > 
-                    <div className ="col "></div>
-                    <li ><a href="https://www.muckleshootcasino.com/" className = "orange-text text-lighten-4">Casino</a></li>
-                    <li><a href="https://www.muckleshootbingo.com/">Bingo</a></li>
-                    <li><a href="#http://www.muckleshoot.nsn.us/community/news.aspx">Health/Wellness</a></li>
-                    <li><a href="http://whiteriveramphitheater.org/">White River Ampitheatre</a></li>
-                    <li><a href="https://jointrivers.com/">Joint Rivers</a></li>
-                    <li><a href="http://www.muckleshoot.nsn.us/default.aspx">Native Indian Tribe Government</a></li>
-                    <li><a href="http://www.muckleshoottribalschool.org/">Tribal School</a></li>
-                    <li><a href="https://www.nwic.edu/nwic-sites/muckleshoot-campus/">Tribal College</a></li>
+
+            <div className="row">
+              <div className="col s6">
+                <a className="white-link" href="#http://www.muckleshoot.nsn.us/community/news.aspx">
+                  Health/Wellness
+                </a>
+              </div>
+              <div className="col s6">
+                <a className="white-link" href="http://whiteriveramphitheater.org/">
+                  White River Ampitheatre
+                </a>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col s6">
+                <a className="white-link" href="https://jointrivers.com/">Joint Rivers</a>
+              </div>
+              <div className="col s6">
+                <a className="white-link" href="http://www.muckleshoot.nsn.us/default.aspx">
+                  Native Indian Tribe Government
+                </a>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col s6">
+                <a className="white-link" href="http://www.muckleshoottribalschool.org/">
+                  Tribal School
+                </a>
+              </div>
+              <div className="col s6">
+                <a className="white-link" href="https://www.nwic.edu/nwic-sites/muckleshoot-campus/">
+                  Tribal College
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col s4 center-align">
+              <img className="footer-logo" src={Logo} alt="Muckleshoot Logo" ></img>
+          </div>
+          <div className="col s2 center-align">
+            <h5 className="white-text">Hours </h5>
+          </div>
+          <div className="col s2 center-align">
+            <h5 className="white-text">Contact </h5>
+                <ul>
+                    <li>
+                        Phone Number 999-999-9999
+                    </li>
+                    <li>
+                        "Address Here"
+                    </li>
+                    <li>
+                        Contact Us
+                    </li>
                 </ul>
-            {/* </div>
-        </div> */}
-        <div className="footer-copyright">
-            <div className="container">
-                © 2020 Copyright Text
-             <a className="grey-text text-lighten-4 right" href="#!">Contact Link</a>
-            </div>
+          </div>
         </div>
+
+        <div className="row">
+          <div className="center-align">
+            <p className="white-text"> © 2020 Copyright Text</p>
+          </div>
         </div>
-        </div>
-    )
-};
+      </footer>
+    </div>
+  );
+}
 
 export default Footer;
-
-{/* <li><Link to="#!" className="grey-text text-lighten-3"> Casino</Link></li>
-                    <li><Link to="#!" className="grey-text text-lighten-3"> Bingo</Link></li>
-                    <li><Link to="#!" className="grey-text text-lighten-3"> Health/Wellness</Link></li>
-                    <li><Link to="#!" className="grey-text text-lighten-3"> White River Shop</Link></li>
-                    <li><Link to="#!" className="grey-text text-lighten-3"> White River Ampitheatre</Link></li>
-                </ul> */}

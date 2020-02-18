@@ -1,14 +1,12 @@
-import Navbar from "../components/Navbar";
+import React from "react";
 
-function Rental() {
-
-       
+function Rentals() {
+  
     return (
-        <div className="container">
-            <h1>Rental</h1>
-       </div >
-
-    );
+        <div>
+          <h1>Rentals</h1>
+        </div>
+      );
     }
 
-export default Rental;
+export default Rentals;
