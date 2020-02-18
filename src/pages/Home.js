@@ -8,7 +8,6 @@ function Home() {
 
             {/* <div className = "container"> */}
             <Jumbotron />
-            <Carousel />
             {/* Need to add <Card /> component here with Carisol of images */}
             {/* <h1>Native American Housing Authority</h1> */}
             {/* Add the native american housing authority to the card or image carisol component */}
