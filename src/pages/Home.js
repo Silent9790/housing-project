@@ -1,5 +1,6 @@
 import React from "react";
 import Jumbotron from "../components/Jumbotron";
+import Carousel from "../components/Carousel"
 
 function Home() {
   return (
@@ -7,8 +8,11 @@ function Home() {
       {/* <div className = "container"> */}
       <Jumbotron />
       {/* Need to add <Card /> component here with Carisol of images */}
+      <Carousel />
+
       {/* <h1>Native American Housing Authority</h1> */}
       {/* Add the native american housing authority to the card or image carisol component */}
+
 
       {/* <Mission /> */}
 
@@ -49,6 +53,7 @@ function Home() {
               <a href="#">This is a link</a>
             </div>
           </div>
+
         </div>
       </div>
     </div>
