@@ -69,6 +69,14 @@ function Navbar(props) {
           >
             Team
           </a></li>
+
+          <li><a
+            href="#contact"
+            onClick={() => props.handlePageChange("Contact")}
+            className=""
+          >
+            Contact
+          </a></li>
         </ul>
       </nav>
     </div>

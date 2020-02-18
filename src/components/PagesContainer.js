@@ -42,6 +42,8 @@ class PagesContainer extends Component {
         return <Rentals />;
       } else if (this.state.currentPage === "Team") {
         return <Team />;
+      } else if (this.state.currentPage === "Contact"){
+        return <Contact/>
       }
     };
   

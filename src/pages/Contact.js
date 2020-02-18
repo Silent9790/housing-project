@@ -6,6 +6,7 @@ function Contact() {
          
         <div>
             <h1 className="center-align">Contact</h1>
+            
        </div >
 
     );
