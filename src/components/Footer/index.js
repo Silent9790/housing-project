@@ -8,7 +8,7 @@ function Footer(props) {
     <div className="page-footer brown lighten-3">
       <footer class=" brown lighten-3">
         <div className="row center-align">
-          <h4 className="white-text">NAIT Housing </h4>
+          <h4 className="white-text">Muckleshoot Housing Authority</h4>
         </div>
 
         <div className="row">
@@ -97,24 +97,24 @@ function Footer(props) {
           </div>
           <div className="col s2 center-align">
             <h5 className="white-text">Hours </h5>
+            <ul>
+              <li>Monday-Friday</li>
+              <li>8 am - 5pm</li>
+            </ul>
           </div>
           <div className="col s2 center-align">
             <h5 className="white-text">Contact </h5>
-            <ul>
-              <br />
 
-              <li>Phone Number 999-999-9999</li>
-              <br />
-              <li>"Address Here"</li>
-              <br />
+            <ul>
+              <li>Phone Number 253-833-7616</li>
+              <li>Fax Number 253-876-2862</li>
+              <li>38037 158th Ave SE, Auburn, Wa 98092</li>
               <li>
-                
                 <a
                   href="#contact"
                   onClick={() => props.handlePageChange("Contact")}
                   className="white-link"
                 >
-                 
                   Contact Us
                 </a>
               </li>
