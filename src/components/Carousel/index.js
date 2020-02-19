@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import ImageGallery from 'react-image-gallery';
 import M from "materialize-css";
 import "./style.css";
 import Carousel1 from "../../pictures/grass.jpg";

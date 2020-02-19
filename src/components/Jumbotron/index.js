@@ -11,7 +11,7 @@ import CardContact from "../CardContact";
 
 function Jumbotron({ children }) {
   return (
-    <div style={{ height: 2400, clear: "both", paddingTop: 120, textAlign: "center" }}
+    <div style={{ height: 2000, clear: "both", textAlign: "center" }}
 
       className="jumbotron"
     >
@@ -19,26 +19,25 @@ function Jumbotron({ children }) {
       <Carousel />
       <Mission />
       <div className="row">
-        <div className="col s6">
+        <div className="col s4">
           <CardGrants/>
         </div>
-        <div className="col s6">
+        <div className="col s4">
           <CardLending/>
         </div>
-      </div>
-      <div className="row">
-        <div className="col s6">
+        <div className="col s4">
           <CardRentals/>
         </div>
-        <div className="col s6">
-          <CardElders/>
-        </div>
       </div>
       <div className="row">
-        <div className="col s6">
+
+        <div className="col s4">
+          <CardElders/>
+        </div>
+        <div className="col s4">
           <CardTeam/>
         </div>
-        <div className="col s6">
+        <div className="col s4">
           <CardContact/>
         </div>
       </div>

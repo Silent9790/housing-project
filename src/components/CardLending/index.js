@@ -8,7 +8,7 @@ import Lending from "../../pictures/lending.PNG";
 
 function CardLending(){
     return(
-<div className="col s7">
+<div className="col s10">
 <Link to="/lending">
   <div className="card">
     <div className="card-content">

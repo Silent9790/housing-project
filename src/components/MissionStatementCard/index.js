@@ -4,17 +4,15 @@ import "./style.css";
 function Mission({ children }) {
   return (
     <div
-    //   id="missionCard"
-      className="red darken-4 missionCard"
+      className="teal lighten-2 missionCard"
       style={{
-        // height: "300vh",
         paddingBottom: 30,
         textAlign: "center",
       }}
     >
       {children}
       <br />
-      <p id="missionText" className="red darken-4">
+      <p id="missionText">
         The Muckleshoot Housing Authority aims to provide safe and affordable
         housing for enrolled members. Our goal is to help each family be self
         sufficient and find affordable housing on the Auburn Indian Reservation.

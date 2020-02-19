@@ -8,7 +8,7 @@ import Team from "../../pictures/guy.jpg";
 
 function CardTeam(){
     return(
-<div className="col s7">
+<div className="col s10">
 <Link to="/team">
   <div className="card">
     <div className="card-content">

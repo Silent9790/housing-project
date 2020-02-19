@@ -7,7 +7,7 @@ import Rentals from "../../pictures/rentals.jpg";
 
 function CardRentals(){
     return(
-<div className="col s7">
+<div className="col s10">
 <Link to="/rentals">
   <div className="card">
     <div className="card-content">

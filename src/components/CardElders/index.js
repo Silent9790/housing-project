@@ -5,7 +5,7 @@ import Elders from "../../pictures/elders.jpg";
 
 function CardElders() {
   return (
-    <div className="col s7">
+    <div className="col s10">
       <Link to="/elders">
         <div className="card">
           <div className="card-content">
