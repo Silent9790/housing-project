@@ -1,6 +1,8 @@
 #jumboBar{
     background-color: #4DB6AC;
-    height: 40vh;
+    height: 45vh;
+    border-top: tan solid 15px;
+    border-bottom: tan solid 15px;
 }
 
 #rentalImg{
