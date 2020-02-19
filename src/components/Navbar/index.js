@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import "./style.css";
 
-function Navbar(props) {
+function Navbar() {
   return (
     <div>
       <nav className="navbar red darken-4" style={{ height: "90px" }}>
@@ -48,6 +48,7 @@ function Navbar(props) {
             </ul>
           </div>
         </div>
+
       </nav>
     </div>
   );

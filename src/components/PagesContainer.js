@@ -17,6 +17,7 @@ import Navbar from "./Navbar/index";
 import Footer from "./Footer/index";
 
 class PagesContainer extends Component {
+<<<<<<< HEAD
   state = {
     currentPage: "Home"
   };
