@@ -1,13 +1,13 @@
 import React from "react";
 import GrantsJumbotron from "../components/GrantsJumbotron";
-import GrantsDPCard from "../components/GrantsDPCard";
+// import GrantsCard1 from "../components/GrantsCard1";
+import GrantsCarousel from "../components/GrantsCarousel";
+
 
 function Grants() {
   return (
-    <div>
-      {/* <h1>Grants</h1> */}
+    <div className ="grants">
   <GrantsJumbotron />
-      {/* <GrantsDPCard /> */}
     </div>
   );
 }
