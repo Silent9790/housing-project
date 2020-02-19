@@ -12,7 +12,7 @@ function RentalJumbotron({ children }) {
         <img id="rentalImg" src={rentalImg} alt="Rental Image" />
         <h3 id="rentalTitle">Rental Housing Program</h3>
         <p id="rentalHeadingText">Visit one of our 302 rental properties within or near the reservation.</p>
-        <button className="red darken-4" id="applyNow">Apply Now</button>
+        <a href="https://drive.google.com/file/d/1ni7SXj7NiSVokzoPO3eUL5sQ-k6-U3Xq/view?usp=sharing" target="_blank"><button id="applyNow">Apply Now</button></a>
       </div>
     </div>
   );

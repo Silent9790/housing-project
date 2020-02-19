@@ -27,8 +27,7 @@ export default class RentalCards extends Component {
                                 <p>ELIGIBILITY: Open to tribal members whose income is currently at or below King County median income. A hair sample drug test must be taken and passed in order to qualify.</p>
                             </div>
                             <div className="card-action">
-                                <a href="#">This is a link</a>
-                                <a href="#">This is a link</a>
+                                <a href="https://drive.google.com/file/d/1ni7SXj7NiSVokzoPO3eUL5sQ-k6-U3Xq/view?usp=sharing" target="_blank">Application PDF</a>
                             </div>
                         </div>
                     </div>
