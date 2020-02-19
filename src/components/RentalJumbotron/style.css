@@ -1,0 +1,25 @@
+#jumboBar{
+    background-color: gray;
+    height: 40vh;
+}
+
+#rentalImg{
+    width: 660px;
+    height: 350px;
+    float: left;
+    padding-left: 7vw;
+    padding-top: 4vh;
+}
+
+#rentalTitle{
+    color: white;
+    font-weight: bold;
+    padding-top: 8vh;
+}
+
+#applyNow{
+    color: white;
+    border: 0px;
+    height: 40px;
+    width: 100px;
+}

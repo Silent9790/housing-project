@@ -1,12 +1,13 @@
 import React from "react";
 import RentalJumbotron from "../components/RentalJumbotron";
+import RentalCards from "../components/RentalCards";
 
 function Rentals() {
   
     return (
         <div>
-          {/* <h1>Rentals</h1> */}
           <RentalJumbotron />
+          <RentalCards />
         </div>
       );
     }
