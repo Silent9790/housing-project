@@ -1,12 +1,10 @@
 import React from "react";
 import Logo from "../../pictures/muckleshootlogo.png";
 import "./style.css";
-// import {Link} from "reacet-router-dom";
-
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function Footer(props) {
   return (
     <div className="page-footer brown lighten-3">
-
       <footer className=" page-footer brown lighten-3">
         <div className="row center-align">
           <h4 className="white-text">Muckleshoot Housing Authority</h4>
@@ -111,13 +109,9 @@ function Footer(props) {
               <li>Fax Number 253-876-2862</li>
               <li>38037 158th Ave SE, Auburn, Wa 98092</li>
               <li>
-                <a
-                  href="#contact"
-                  onClick={() => props.handlePageChange("Contact")}
-                  className="white-link"
-                >
+                <Link to="/contact" className="white-link">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

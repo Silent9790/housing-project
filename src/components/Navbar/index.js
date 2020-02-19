@@ -1,5 +1,8 @@
 import React from "react";
 import Logo from "../../pictures/muckleshootlogo.png";
+import Grants from "../../pages/Grants";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 import "./style.css";
 
 function Navbar(props) {
@@ -21,73 +24,26 @@ function Navbar(props) {
           <div className="col s6">
             <ul className="right hide-on-med-and-down">
               <li>
-                <a
-                  href="#home"
-                  onClick={() => props.handlePageChange("Home")}
-                  className=""
-                >
-                  Home
-                </a>
+                <Link to="/">Home</Link>
               </li>
 
               <li>
-                <a
-                  href="#grants"
-                  onClick={() => props.handlePageChange("Grants")}
-                  className=""
-                >
-                  Grants
-                </a>
+                <Link to="/grants">Grants</Link>
               </li>
 
               <li>
-                <a
-                  href="#loans"
-                  onClick={() => props.handlePageChange("Loans")}
-                  className=""
-                >
-                  Loans
-                </a>
+                <Link to="/lending">Lending</Link>
               </li>
 
               <li>
-                <a
-                  href="#rentals"
-                  onClick={() => props.handlePageChange("Rentals")}
-                  className=""
-                >
-                  Rentals
-                </a>
+                <Link to="/rentals">Rentals</Link>
+              </li>
+              <li>
+                <Link to="/elders">Elders</Link>
               </li>
 
               <li>
-                <a
-                  href="#ida"
-                  onClick={() => props.handlePageChange("IDA")}
-                  className=""
-                >
-                  IDA
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="#elders"
-                  onClick={() => props.handlePageChange("Elders")}
-                  className=""
-                >
-                  Elders
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="#team"
-                  onClick={() => props.handlePageChange("Team")}
-                  className=""
-                >
-                  Team
-                </a>
+                <Link to="/team">Team</Link>
               </li>
             </ul>
           </div>

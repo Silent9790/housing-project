@@ -1,10 +1,15 @@
 import React, { Component } from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect
+} from "react-router-dom";
 import Contact from "../pages/Contact";
 import Elders from "../pages/Elders";
 import Grants from "../pages/Grants";
 import Home from "../pages/Home";
-import IDA from "../pages/IDA";
-import Loans from "../pages/Loans";
+import Lending from "../pages/Loans";
 import NoMatch from "../pages/NoMatch";
 import Rentals from "../pages/Rental";
 import Team from "../pages/Team";
@@ -20,42 +25,34 @@ class PagesContainer extends Component {
     this.setState({ currentPage: page });
   };
 
-  renderPage = () => {
-    if (this.state.currentPage === "Contact") {
-      return <Contact />;
-    } else if (this.state.currentPage === "Elders") {
-      return <Elders />;
-    } else if (this.state.currentPage === "Grants") {
-      return <Grants />;
-    } else if (this.state.currentPage === "Home") {
-      return <Home />;
-    } else if (this.state.currentPage === "IDA") {
-      return <IDA />;
-    } else if (this.state.currentPage === "Loans") {
-      return <Loans />;
-    } else if (this.state.currentPage === "NoMatch") {
-      return <NoMatch />;
-    } else if (this.state.currentPage === "Rentals") {
-      return <Rentals />;
-    } else if (this.state.currentPage === "Team") {
-      return <Team />;
-    }
-  };
-
   render() {
     return (
       <div className="bg">
         <div className="container-fluid">
-          <Navbar
-            currentPage={this.state.currentPage}
-            handlePageChange={this.handlePageChange}
-          />
+          <Router>
+            <Navbar
+              currentPage={this.state.currentPage}
+              handlePageChange={this.handlePageChange}
+            />
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/grants" component={Grants} />
+              <Route exact path="/lending" component={Lending} />
+              <Route exact path="/rentals" component={Rentals} />
+              <Route exact path="/elders" component={Elders} />
+              <Route exact path="/team" component={Team} />
+              <Route exact path="/contact" component={Contact} />
+              <Route exact path="/nomatch" component={NoMatch} />
 
-          {this.renderPage()}
-          <Footer
-            currentPage={this.state.currentPage}
-            handlePageChange={this.handlePageChange}
-          />
+              <Route path="*">
+                <Redirect to={"/nomatch"} />
+              </Route>
+            </Switch>
+            <Footer
+              currentPage={this.state.currentPage}
+              handlePageChange={this.handlePageChange}
+            />
+          </Router>
         </div>
       </div>
     );
