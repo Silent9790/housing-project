@@ -11,3 +11,7 @@
 .locationCards{
     
 } */
+
+.benefitsList {
+    list-style-type: circle !important;
+}
