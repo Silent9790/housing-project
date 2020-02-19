@@ -4,9 +4,9 @@ function GrantsCard3 () {
     return (
         <div className = "row">
         <div className="col s1 m3">
-            <div class="card">
+            <div class="card teal lighten-2">
                 <div className = "card-image"> 
-             <h2 className="header"> Assistance </h2>
+             {/* <h2 className="header"> Assistance </h2> */}
             {/* <div className="card horizontal"> */}
                 {/* <div className="card-image"> */}
                     <img src="https://tse2.mm.bing.net/th?id=OIP.G7N-Q8p8bpODtPOuKxrEXAHaDf&pid=Api&P=0&w=347&h=164" alt="fall" />
