@@ -8,7 +8,6 @@ import CardElders from "../CardElders";
 import CardTeam from "../CardTeam";
 import CardContact from "../CardContact";
 
-
 function Jumbotron({ children }) {
   return (
     <div style={{ height: 2000, clear: "both", textAlign: "center" }}
