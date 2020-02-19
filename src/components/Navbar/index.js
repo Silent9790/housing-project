@@ -1,6 +1,5 @@
 import React from "react";
 import Logo from "../../pictures/muckleshootlogo.png";
-import Grants from "../../pages/Grants";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import "./style.css";
@@ -18,7 +17,7 @@ function Navbar() {
             ></img>
           </div>
           <div className="col s4">
-            <h4 className="">NAIT Housing Authority</h4>
+            <h5 className="">Muckleshoot Housing Authority</h5>
           </div>
 
           <div className="col s6">

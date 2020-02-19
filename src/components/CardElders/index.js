@@ -1,18 +1,18 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
-import Grants from "../../pictures/grants.jpg";
+import Elders from "../../pictures/elders.jpg";
 
-function CardGrants() {
+function CardElders() {
   return (
     <div className="col s7">
-      <Link to="/grants">
+      <Link to="/elders">
         <div className="card">
           <div className="card-content">
-            <p className="center-align homepage-cards">Grants</p>
+            <p className="center-align homepage-cards">Elders</p>
           </div>
           <div className="card-image">
-            <img src={Grants}></img>
+            <img alt="Elders" src={Elders}></img>
           </div>
         </div>
       </Link>
@@ -20,4 +20,4 @@ function CardGrants() {
   );
 }
 
-export default CardGrants;
+export default CardElders;

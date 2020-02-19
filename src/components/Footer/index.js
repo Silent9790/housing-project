@@ -1,8 +1,8 @@
 import React from "react";
 import Logo from "../../pictures/muckleshootlogo.png";
 import "./style.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-function Footer(props) {
+import { BrowserRouter as Link } from "react-router-dom";
+function Footer() {
   return (
     <div className="page-footer brown lighten-3">
       <footer className=" page-footer brown lighten-3">
