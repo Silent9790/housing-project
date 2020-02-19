@@ -1,9 +1,10 @@
 import React, {Component} from "react";
 import M from "materialize-css";
-import Carousel1 from "../../pictures/grass.jpg"
-import Carousel2 from "../../pictures/forest.jpg"
-import Carousel3 from "../../pictures/sheep.jpg"
-import Carousel4 from "../../pictures/guy.jpg"
+import "./style.css";
+import Carousel1 from "../../pictures/grass.jpg";
+import Carousel2 from "../../pictures/forest.jpg";
+import Carousel3 from "../../pictures/sheep.jpg";
+import Carousel4 from "../../pictures/guy.jpg";
 
 export default class Carousel extends Component {
     componentDidMount() {

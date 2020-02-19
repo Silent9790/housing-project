@@ -12,6 +12,7 @@ import CardContact from "../CardContact";
 function Jumbotron({ children }) {
   return (
     <div style={{ height: 2400, clear: "both", paddingTop: 120, textAlign: "center" }}
+
       className="jumbotron"
     >
       {children}
