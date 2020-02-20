@@ -16,8 +16,11 @@ function Loans() {
         <div className="row">
           <div className="col s4">
             <div>
-            <p style={{fontSize:"20px", fontweight:"bold"}}>
-              Curious what your loan might be? Try our loan calculator tool:
+            <p style={{fontSize:"25px", fontweight:"bold"}}>
+              Curious about your loan?
+            </p>
+            <p>
+            Try our loan calculator tool:
             </p>
             <LoanCalculator />
             </div>

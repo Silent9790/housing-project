@@ -9,11 +9,10 @@ function LendingJumbotron({ children }) {
   >
     {children}
     <div id="jumboBar">
-      <img id="rentalImg" src={lendingImg} alt="Rental Image" />
+      <img id="rentalImg" src={lendingImg} alt="Rental" />
       <h3 id="rentalTitle">Lending Program</h3>
-      <p id="rentalHeadingText">Here is a list of the lending programs we offer.</p>
-      {/* <a href="https://drive.google.com/open?id=1PmvEXVUEYmEKdxZVwSyS3Jf9b27xxXrC
-" target="_blank"><button id="applyNow">Apply Now</button></a> */}
+      <p id="rentalHeadingText">Here are the programs we offer:</p>
+
     </div>
   </div>
   );

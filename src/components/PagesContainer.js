@@ -13,6 +13,7 @@ import Lending from "../pages/Loans";
 import NoMatch from "../pages/NoMatch";
 import Rentals from "../pages/Rental";
 import Team from "../pages/Team";
+import Login from "../pages/Login";
 import Navbar from "./Navbar/index";
 import Footer from "./Footer/index";
 
@@ -42,6 +43,7 @@ class PagesContainer extends Component {
               <Route exact path="/elders" component={Elders} />
               <Route exact path="/team" component={Team} />
               <Route exact path="/contact" component={Contact} />
+              <Route exact path="/login" component={Login} />
               <Route exact path="/nomatch" component={NoMatch} />
 
               <Route path="*">

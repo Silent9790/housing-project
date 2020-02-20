@@ -12,7 +12,7 @@ function LendingCards() {
         <div className="col s6">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src={app1}></img>
+              <img class="activator" src={app1} alt="App"></img>
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">
@@ -22,6 +22,7 @@ function LendingCards() {
               <p>
                 <a
                   href="https://drive.google.com/file/d/1UmeWolFVgcBDNulGLN83W0upXC1g0v2Q/view?usp=sharing"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   Download here
@@ -40,7 +41,7 @@ function LendingCards() {
 
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src={app2}></img>
+              <img class="activator" src={app2} alt="App"></img>
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">
@@ -50,6 +51,7 @@ function LendingCards() {
               <p>
                 <a
                   href="https://drive.google.com/file/d/0B4ZfYNSVBTNRQXAwQTNyZnVCQ0NuR19WOXhMZm9fMlVRcjkw/view?usp=sharing"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   Download here
@@ -68,7 +70,7 @@ function LendingCards() {
 
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src={Housing}></img>
+              <img class="activator" src={Housing} alt="House"></img>
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">
@@ -78,6 +80,7 @@ function LendingCards() {
               <p>
                 <a
                   href="https://drive.google.com/file/d/1kft3enskBCHJQ3R0f5adMPugtjfVRiB_/view?usp=sharing"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   This is a link
@@ -90,8 +93,9 @@ function LendingCards() {
                 <i class="material-icons right">close</i>
               </span>
               <p>
-                Here is some more information about this product that is only
-                revealed once clicked on.
+                The purpose of the Housing Stabilization Assistance Program is
+                to assist low-income Muckleshoot Tribal members to obtain safe
+                and affordable rental housing.
               </p>
             </div>
           </div>

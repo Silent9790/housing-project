@@ -10,7 +10,7 @@ function CardGrants() {
 <div class="card">
   
 <div class="card-image waves-effect waves-block waves-light">
-  <img class="activator" src={Grants}></img>
+  <img class="activator" src={Grants} alt="grants"></img>
 </div>
 
 <div class="card-content">

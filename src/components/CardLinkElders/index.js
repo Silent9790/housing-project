@@ -10,7 +10,7 @@ function CardElders() {
 <div class="card">
   
   <div class="card-image waves-effect waves-block waves-light">
-    <img class="activator" src={Elders}></img>
+    <img class="activator" src={Elders} alt="elders"></img>
   </div>
   
   <div class="card-content">
