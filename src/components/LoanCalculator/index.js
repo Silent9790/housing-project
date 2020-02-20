@@ -86,7 +86,7 @@ function LoanCalculator() {
               </div>
             </div>
             <div className="card-action center-align">
-              <input type="submit" value="Estimate" onClick={calculate} />
+              <input type="submit" value="Estimate" id="estimate" onClick={calculate} />
             </div>
           </div>
         </div>
