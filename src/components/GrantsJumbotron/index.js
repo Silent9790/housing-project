@@ -1,44 +1,24 @@
-// import React from "react";
-// import GrantsCarousel from "../GrantsCarousel";
-// import GrantsCard1 from "../GrantsCard3";
-// import GrantsCard2 from "../GrantsCard2";
-// import GrantsCard3 from "../GrantsCard1";
-// // import GrantsCard4 from "../GrantsCard4";
-
-
 import React from "react";
 // import "./style.css";
-import GrantsCard1 from "../GrantsCard1";
-import GrantsCarousel from "../GrantsCarousel";
-import GrantsCard2 from "../GrantsCard2";
-import GrantsCard3 from "../GrantsCard3";
-import GrantsCard4 from "../GrantsCard4";
+import grantsImg from "../../pictures/sheep.jpg";
 
-
-// import rentalImg from "../../pictures/woman.jpg";
-
-function RentalJumbotron({ children }) {
+function GrantsJumbotron ({ children }) {
   return (
-    <div style={{ height: 2000, clear: "both", paddingTop: 0, textAlign: "center", backgroundColor: " tan" }}
+    <div style={{ height: 575, clear: "both", paddingTop: 100, paddingBottom: 100, textAlign: "center", backgroundColor: "grey"  }}
       className="jumbotron"
     >
       {children}
-      {/* <GrantsCard3 />s */}
-      <GrantsCarousel />
-<GrantsCard1 />
-<GrantsCard2 />
-<GrantsCard3 />
-<GrantsCard4 />
-      <div id="grantsJumbo">
-        {/* <img id="grantsImg" src={rentalImg} alt="Grants Image" /> */}
-        {/* <h3 id="grantsTitle">Grants</h3> */}
-        <p id="grantsHeadingText"> </p>
-        {/* <button className="red darken-4" id="applyNow">Apply Now</button> */}
-        {/* <a href="http://www.muckleshoot.nsn.us/media/44055/down%20payment%20assistance%20application.pdf" */}
+      <div id="jumboBar">
+        <img id="rentalImg" src={grantsImg} alt="Rental Image" />
+        <h3 id="rentalTitle">Grants Program</h3>
+        {/* <p id="rentalHeadingText">Visit one of our 302 rental properties within or near the reservation.</p> */}
+        <p className = "center">
+       You get a grant.. you all get a grant. Just Kidding. Only enrolled members get a grant.
+         </p>
+        <a href="https://drive.google.com/file/d/1ni7SXj7NiSVokzoPO3eUL5sQ-k6-U3Xq/view?usp=sharing" target="_blank"><button id="applyNow">Apply Now</button></a>
       </div>
     </div>
-
   );
 }
 
-export default RentalJumbotron;
+export default GrantsJumbotron;

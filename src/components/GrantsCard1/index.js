@@ -3,7 +3,7 @@ import React from "react";
 function GrantsCard1() {
     return (
         // <div className="row">
-        <div className="col s1 m3">
+        <div className="col s6 m6">
             <div class="card white ">
                 <div className="card-image">
                     <h2 className="header">Grants</h2>
