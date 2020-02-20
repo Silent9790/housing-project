@@ -1,23 +1,26 @@
 import React from "react";
-import "./style.css";
-import {Link } from "react-router-dom";
-import Contact from "../../pictures/contact.jpg";
+import { BrowserRouter as Route, Link } from "react-router-dom";
 
 function CardContact() {
   return (
-    <div className="col s7">
-      <Link to="/contact">
-        <div className="card">
-          <div className="card-content">
-            <p className="center-align homepage-cards">Contact</p>
-          </div>
-          <div className="card-image">
-            <img alt="contact" src={Contact}></img>
+    <Link to="/contact">
+      <div className="col s12" className="black-text">
+        <div className="card horizontal">
+          <div className="card-stacked">
+            <div className="card-content center-align">
+              <h5 className="black-text">Need to get in touch?</h5>
+            </div>
+            <div className="card-content">
+              <p>
+                If you Want some help, or you even have questions, click here to
+                get in contact with us.
+              </p>
+            </div>
+            <div className="card-action"></div>
           </div>
         </div>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 }
-
 export default CardContact;
