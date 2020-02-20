@@ -13,7 +13,7 @@ function CardTeam(){
 <div class="card">
   
   <div class="card-image waves-effect waves-block waves-light">
-    <img class="activator" src={Team}></img>
+    <img class="activator" src={Team} alt="Team"></img>
   </div>
   
   <div class="card-content">

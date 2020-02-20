@@ -10,7 +10,7 @@ function CardContact() {
 <div class="card">
   
 <div class="card-image waves-effect waves-block waves-light">
-  <img class="activator" src={Contact}></img>
+  <img class="activator" src={Contact} alt="contact"></img>
 </div>
 
 <div class="card-content">

@@ -9,7 +9,7 @@ function LendingJumbotron({ children }) {
   >
     {children}
     <div id="jumboBar">
-      <img id="rentalImg" src={lendingImg} alt="Rental Image" />
+      <img id="rentalImg" src={lendingImg} alt="Rental" />
       <h3 id="rentalTitle">Lending Program</h3>
       <p id="rentalHeadingText">Here are the programs we offer:</p>
 

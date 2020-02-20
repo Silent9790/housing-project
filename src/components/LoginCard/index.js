@@ -16,13 +16,13 @@ function LoginCard() {
                             I am convenient because I require little markup to use effectively.</p>
                         </div>
                         <div className="card-action">
-                            <a href="#">This is a link</a>
-                            <a href="#">This is a link</a>
+                            <a href="https://www.google.com/">This is a link</a>
+                            <a href="https://www.google.com/">This is a link</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
+            <div >
             </div>
 
         </div>
