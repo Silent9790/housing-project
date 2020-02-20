@@ -7,7 +7,7 @@
 }
 
 .createAccountCard{
-    height: 200vh;
+    height: 105vh;
 }
 
 .createAccountButton{
@@ -27,6 +27,11 @@
 
 .firstNameBox{
     margin-right: 5vw;
+}
+
+.lastNameText{
+    float: right;
+    padding-right: 8vw;
 }
 
 #createAccountBumper{

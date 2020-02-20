@@ -11,12 +11,14 @@ function CreateAccountCard() {
                     <div className="card red darken-4 createAccountCard">
                         <div className="card-content white-text">
                             <form className="container">
+                                <div className="row" style={{marginBottom: 0}}>
+                                <x-h7 className="white-text">First Name:</x-h7>
+                                <div className="lastNameText"><x-h7 className="white-text">Last Name:</x-h7></div>
+                                </div>
                                 <div className="row">
-                                    <x-h7 className="white-text">First Name:</x-h7>
                                     <div className="input-field col m5 white firstNameBox">
                                         <input className="validate" type="text" />
                                     </div>
-                                    <x-h7 className="white-text">First Name:</x-h7>
                                     <div className="input-field col m5 white">
                                         <input className="validate" type="text" />
                                     </div>
