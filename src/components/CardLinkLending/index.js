@@ -13,7 +13,7 @@ function CardLending(){
 <div class="card">
   
   <div class="card-image waves-effect waves-block waves-light">
-    <img class="activator" src={Lending}></img>
+    <img class="activator" src={Lending} alt="Lending"></img>
   </div>
   
   <div class="card-content">

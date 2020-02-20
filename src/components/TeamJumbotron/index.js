@@ -9,9 +9,9 @@ function TeamJumbotron({ children }) {
     >
       {children}
       <div id="jumboTeam">
-        <img id="teamImg" src={teamImg} alt="Team Image" />
+        <img id="teamImg" src={teamImg} alt="Team" />
         <h3 id="teamTitle">Muckleshoot Housing Authority Team</h3>
-        <a href="#" target="_blank"><button id="meetTeam">Arrange a Meeting</button></a>
+        <a href="https://www.google.com/"  rel="noopener noreferrer" target="_blank"><button id="meetTeam">Arrange a Meeting</button></a>
       </div>
     </div>
   );
