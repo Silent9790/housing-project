@@ -4,6 +4,7 @@ import "./style.css";
 import Town1 from "../../pictures/town1.jpg";
 import Town2 from "../../pictures/town2.jpg";
 import Town3 from "../../pictures/town3.jpg";
+import AddressCheck from "../AddressCheck"
 
 
 
@@ -104,6 +105,11 @@ export default class RentalCards extends Component {
                                 <a href="https://www.google.com/maps/place/Al+Borlin+Park/@47.885539,-121.9812634,13z/data=!4m5!3m4!1s0x549aa6f035620985:0x2e4c374ba7bb2268!8m2!3d47.8527667!4d-121.964035"  rel="noopener noreferrer" target="_blank">View on Google Maps</a>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="col s6 m6">
+                    <div className="card rentalCard">
+                        <AddressCheck/>
                     </div>
                 </div>
             </div>
