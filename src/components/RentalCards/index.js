@@ -3,6 +3,7 @@ import "./style.css";
 import Town1 from "../../pictures/town1.jpg";
 import Town2 from "../../pictures/town2.jpg";
 import Town3 from "../../pictures/town3.jpg";
+import AddressCheck from "../AddressCheck"
 
 
 
@@ -88,6 +89,11 @@ function RentalCards() {
                         <div className="card-action">
                             <a href="#" target="_blank">View on Google Maps</a>
                         </div>
+                    </div>
+                </div>
+                <div className="col s6 m6">
+                    <div className="card rentalCard">
+                        <AddressCheck/>
                     </div>
                 </div>
             </div>
