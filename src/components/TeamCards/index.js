@@ -45,7 +45,7 @@ function TeamCards() {
                         <img className="teamProfileImg circle" src={Guy} />
                         <div className="card-stacked">
                             <div className="card-content">
-                                <a href="#">NICK SSETO</a>
+                                <a href="#">NICK SETO</a>
                                 <p>Position: Hero</p>
                                 <p>Location: The Mind</p>
                                 <p>Email: wow@wow.wow</p>

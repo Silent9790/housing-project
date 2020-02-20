@@ -37,12 +37,17 @@ function Navbar() {
               <li>
                 <Link to="/rentals">Rentals</Link>
               </li>
+
               <li>
                 <Link to="/elders">Elders</Link>
               </li>
 
               <li>
                 <Link to="/team">Team</Link>
+              </li>
+
+              <li>
+                <Link to="/login">Login</Link>
               </li>
             </ul>
           </div>

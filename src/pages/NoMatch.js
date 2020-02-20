@@ -1,9 +1,7 @@
 import React from "react";
-// import { Col, Row, Container } from "../components/Grid";
 
 function NoMatch() {
   return (
-
     <div>
       <h1>404 Page Not Found</h1>
       <h1>
@@ -12,7 +10,6 @@ function NoMatch() {
         </span>
       </h1>
     </div>
-
   );
 }
 

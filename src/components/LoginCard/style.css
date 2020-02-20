@@ -1,0 +1,9 @@
+.loginTitle{
+    font-weight: bold;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+.loginCard{
+    height: 50vh;
+}

@@ -62,9 +62,9 @@ export default class RentalCards extends Component {
                 <h5>Our Locations:</h5>
                 <div className="row locationCards">
                     <div className="col s4 m4">
-                        <div className="card rentalCard">
+                        <div className="card">
                             <div className="card-image">
-                                <img className="rentalImg" src={Town1} />
+                                <img src={Town1} />
                                 <span className="card-title">Skopabsh Village</span>
                             </div>
                             <div className="card-content">
@@ -77,9 +77,9 @@ export default class RentalCards extends Component {
                     </div>
 
                     <div className="col s4 m4">
-                        <div className="card rentalCard">
+                        <div className="card">
                             <div className="card-image">
-                                <img className="rentalImg" src={Town2} />
+                                <img src={Town2} />
                                 <span className="card-title">Cedar Village</span>
                             </div>
                             <div className="card-content">
@@ -92,9 +92,9 @@ export default class RentalCards extends Component {
                     </div>
 
                     <div className="col s4 m4">
-                        <div className="card rentalCard">
+                        <div className="card">
                             <div className="card-image">
-                                <img className="rentalImg" src={Town3} />
+                                <img src={Town3} />
                                 <span className="card-title">Davis Community</span>
                             </div>
                             <div className="card-content">
