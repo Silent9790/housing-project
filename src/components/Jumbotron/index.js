@@ -1,12 +1,12 @@
 import React from "react";
 import Carousel from "../Carousel";
 import Mission from "../MissionStatementCard";
-import CardGrants from "../CardGrants";
-import CardLending from "../CardLending";
-import CardRentals from "../CardRentals";
-import CardElders from "../CardElders";
-import CardTeam from "../CardTeam";
-import CardContact from "../CardContact";
+import CardGrants from "../CardLinkGrants";
+import CardLending from "../CardLinkLending";
+import CardRentals from "../CardLinkRentals";
+import CardElders from "../CardLinkElders";
+import CardTeam from "../CardLinkTeam";
+import CardContact from "../CardLinkContact";
 
 function Jumbotron({ children }) {
   return (

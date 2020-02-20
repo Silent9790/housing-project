@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../pictures/muckleshootlogo.png";
-import { BrowserRouter as Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./style.css";
 
 function Footer() {
@@ -98,8 +98,8 @@ function Footer() {
           <div className="col s2 center-align">
             <h5 className="white-text">Hours </h5>
             <ul>
-              <li>Monday-Friday</li>
-              <li>8 am - 5pm</li>
+              <li className="white-text">Monday-Friday</li>
+              <li className="white-text">8 am - 5pm</li>
             </ul>
           </div>
           <div className="col s2 center-align">
@@ -114,6 +114,7 @@ function Footer() {
                   Contact Us
                 </Link>
               </li>
+            
             </ul>
           </div>
         </div>
