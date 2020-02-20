@@ -11,3 +11,6 @@ a{
 .white-link:hover{
     color: rgb(209, 209, 209);
 }
+.footer-color{
+    background: rgb(156, 156, 156);
+}
