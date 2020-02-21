@@ -7,19 +7,19 @@ function CardGrants() {
   return (
 
 
-<div class="card">
+<div className="card" style={{width:"20vw", margin: "0 auto"}}>
   
-<div class="card-image waves-effect waves-block waves-light">
-  <img class="activator" src={Grants} alt="grants"></img>
+<div className="card-image waves-effect waves-block waves-light">
+  <img className="activator" src={Grants} alt="grants"></img>
 </div>
 
-<div class="card-content">
-  <span class="card-title activator grey-text text-darken-4">Grants<i class="material-icons right">more_vert</i></span>
+<div className="card-content">
+  <span className="card-title activator grey-text text-darken-4">Grants<i className="material-icons right">more_vert</i></span>
   <Link to="/grants">Get Started</Link>
 </div>
 
-<div class="card-reveal">
-  <span class="card-title grey-text text-darken-4">Grants<i class="material-icons right">close</i></span>
+<div className="card-reveal">
+  <span className="card-title grey-text text-darken-4">Grants<i className="material-icons right">close</i></span>
   <p>La bla bla lala La bla bla lalaLa bla bla lalaLa bla bla lalaLa bla bla lalaLa bla bla lalaLa bla bla lalaLa bla bla lalaLa bla bla lala</p>
 </div>
 </div>
