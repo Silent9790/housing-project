@@ -1,13 +1,11 @@
 import React from "react";
-import MaintenanceJumbotron from "../components/MaintenaceJumbotron";
+import MaintenanceJumbotron from "../components/MaintenanceJumbo";
 
 function Maintenance() {
   return (
     <div>
-      {/* <h1>Location</h1> */}
-      {/* <Team Jumbotron /> */}
+      <MaintenanceJumbotron />
     </div>
   );
 }
-
 export default Maintenance;
