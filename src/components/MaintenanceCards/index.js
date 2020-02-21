@@ -11,34 +11,6 @@ function MaintenanceCards() {
     return (
         <div className="container">
             <h5 id="teamIntroText">Departments</h5>
-
-            {/* <div className="row">
-                <div className="col s6 m6">
-                    <div className="card horizontal">
-                        <img className="maintenanceCategorycircle" src={Woman} alt="profile" />
-                        <div className="card-stacked">
-                            <div className="card-content">
-                                <a href="https://www.google.com/">Unit Turn</a>
-                                <p>Email: john@bomb.com</p>
-                                <p>Phone: (111) 111-1111</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col s6 m6">
-                    <div className="card horizontal">
-                        <img className="teamProfileImg circle" src={Woman} alt="profile" />
-                        <div className="card-stacked">
-                            <div className="card-content">
-                                <a href="https://www.google.com/">Rental Maintenance</a>
-                                <p>Email: jack@jack.jack</p>
-                                <p>Phone: (111) 111-1112</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
             <div className="col s6 m6">
                     <div className="card horizontal red darken-4">
                         <img className="teamProfileImg circle" src={Four} alt="profile" />
