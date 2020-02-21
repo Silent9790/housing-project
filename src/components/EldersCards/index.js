@@ -4,9 +4,10 @@ import M from "materialize-css";
 import Leg1 from "../../pictures/leg3.jpeg";
 import house1 from "../../pictures/b4.jpeg";
 import house2 from "../../pictures/b3.jpeg";
-import ElderCard from "../ElderCard";
-// import CardRentals from "../CardRentals"; //!!!!
-import CardRentals from "../CardLinkRentals";
+import house3 from "../../pictures/b1.jpeg";
+import house4 from "../../pictures/b2.jpeg";
+// import ElderCard from "../ElderCard";
+
 
 import HousingProgram from "../../pictures/HousingProgram.png";
 import InsuranceAssistance from "../../pictures/InsuranceAssistance.png";
@@ -21,10 +22,29 @@ export default class RentalCards extends Component {
 
     render() {
         return (
+
             <div className="container">
-                <ElderCard />
-                {/* <ElderCard/> */}
-                <div className="container">
+                <div className="col s6 m6">
+                    <div className="row">
+                        <div className="card red darken-4">
+                            <div className="card-content white-text">
+                                <span className="card-title">Elders Programs </span>
+                                <strong>Elder New Home Construction -</strong> Eligible Muckleshoot tribal elders
+                may qualify for new home construction on their property,
+                services include assistance in obtaining permits, leases and
+                other required approvals. Architectural consulting, engineering,
+                landscaping, and utility set up are also available.
+                                <p>ELIGIBILITY: Open to elder tribal members over the age of 40.
+                                    <strong>ELIGIBILITY:</strong> Tribal members must be 55 years of age or older,
+                meet eligibility guidelines, have a BIA-approved lease, clear
+                Title Status Report or deed to the property. To apply, complete
+                the application and participate in all phases of the planning
+                process.</p>
+
+                                <strong>The forms below are used to used to determine eligibity and the approval process. </strong>
+                                <br />
+                                <br />
+                                <div className="container">
                     <div className="row">
                         <div className="col s4">
                             <a href="https://drive.google.com/file/d/1YoOlWrg4INe04Y6XrcvsWHaBlMV4cwiJ/view?usp=sharing" rel="noopener noreferrer" target="_blank">
@@ -46,12 +66,7 @@ export default class RentalCards extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="col s6 m6">
-                    <div className="row">
-                        <div className="card red darken-4">
-                            <div className="card-content white-text">
-                                <span className="card-title">Elders Programs </span>
-                                <p>ELIGIBILITY: Open to elder tribal members over the age of 40. </p>
+
                             </div>
                             <div className="card-action">
                                 <a href="https://drive.google.com/file/d/1ni7SXj7NiSVokzoPO3eUL5sQ-k6-U3Xq/view?usp=sharing" target="_blank">Application PDF</a>
@@ -59,6 +74,8 @@ export default class RentalCards extends Component {
                         </div>
                     </div>
                 </div>
+                <br />
+                <br />
 
                 <h5>Elders Program Features: </h5>
                 <ul class="collapsible">
@@ -75,68 +92,117 @@ export default class RentalCards extends Component {
                         <div class="collapsible-body"><span>Max is $90,000</span></div>
                     </li>
                 </ul>
+                <br />
+                <br />
 
-
-
-                <h5>Elder Homes:</h5>
-                <div className="container">
-                    {/*<div className="col s4 m4">
-                        <div className="row">
-                            <div className="card red darken-4">
-                                <div className="card-image">
-                                    <img className="grantsImg" src={house2} />
-                                </div>
-                                <span className="card-title">New House Construction</span>
-                                <div className="card-content white-text">
-                                    {/* <span className="card-title">Grants </span> */}
-                    {/*}  <p>If you're a new to the world of grants, we have the home loan experts and resources to help you on your home buying journey. MIT Housing Authority homebuyers can receive up to $45,000 in down-payment assistance.  </p><br />
-                                    <p>ELIGIBILITY: Open to tribal members whose income is currently at or below King County median income. A hair sample drug test must be taken and passed in order to qualify.</p>
-                                </div>
-                                <div className="card-action">
-                                    <a href="https://drive.google.com/file/d/1ni7SXj7NiSVokzoPO3eUL5sQ-k6-U3Xq/view?usp=sharing" target="_blank">Application PDF</a>
-                                </div>
-                            </div>
+                {/* <div className="container">
+                    <div className="row">
+                        <div className="col s4">
+                            <a href="https://drive.google.com/file/d/1YoOlWrg4INe04Y6XrcvsWHaBlMV4cwiJ/view?usp=sharing" rel="noopener noreferrer" target="_blank">
+                                <img src={HousingProgram} alt="pdf" style={{ height: "300px" }} />
+                            </a>
                         </div>
-                    </div> */}
-                    <div className="col s4">
-                        <CardRentals />
-                    </div>
+                        <div className="col s3">
 
-                    <div className="col s4 m4">
-                        <div className="row">
-                            <div className="card red darken-4">
-                                <div className="card-image">
-                                    <img className="grantsImg" src={house1} />
-                                </div>
-                                <span className="card-title">Home Repair</span>
-                                <div className="card-content white-text">
-                                    {/* <span className="card-title">Grants </span> */}
-                                    <p>ELIGIBILITY: Open to tribal members whose income is currently at or below King County median income. A hair sample drug test must be taken and passed in order to qualify.</p>
-                                </div>
-                                <div className="card-action">
-                                    <a href="https://drive.google.com/file/d/1ni7SXj7NiSVokzoPO3eUL5sQ-k6-U3Xq/view?usp=sharing" target="_blank">Application PDF</a>
-                                </div>
-                            </div>
+                        </div>
+
+                        <div className="col s4">
+                            <a href="https://drive.google.com/file/d/1-K8tX2fT0cxdFIvLieAlAYp_gWJDthVg/view?usp=sharing" rel="noopener noreferrer" target="_blank">
+                                <img
+                                    src={InsuranceAssistance}
+                                    alt="pdf"
+                                    style={{ height: "300px" }}
+                                />
+                            </a>
                         </div>
                     </div>
-                    <div className="col s4 m4">
-                        <div className="row">
-                            <div className="card red darken-4">
-                                <div className="card-image">
-                                    <img className="grantsImg" src={house1} />
-                                </div>
-                                <span className="card-title">Home Assistance</span>
-                                <div className="card-content white-text">
-                                    {/* <span className="card-title">Grants </span> */}
-                                    <p>ELIGIBILITY: Open to tribal members whose income is currently at or below King County median income. A hair sample drug test must be taken and passed in order to qualify.</p>
-                                </div>
-                                <div className="card-action">
-                                    <a href="https://drive.google.com/file/d/1ni7SXj7NiSVokzoPO3eUL5sQ-k6-U3Xq/view?usp=sharing" target="_blank">Application PDF</a>
-                                </div>
+                </div> */}
+                <br />
+                <br />
+
+                <div className="col s6 m6">
+                    <div className="card horizontal teal lighten-2 ">
+                        <img className="houseImg" src={house3} alt="profile" />
+                        <div className="card-stacked">
+                            <div className="card-content">
+                                <a href="https://www.google.com/">Housing</a>
+                                <p>Location: Skopapsh Village</p>
+                                <p>Phone: (123) 456-7890</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <br />
+                <div className="col s6 m6">
+                    <div className="card horizontal teal lighten-2 ">
+                        <img className="houseImg" src={house2} alt="profile" />
+                        <div className="card-stacked">
+                            <div className="card-content">
+                                <a href="https://www.google.com/">Housing</a>
+                                <p>Location: Skopapsh Village</p>
+                                <p>Phone: (123) 456-7890</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div className="col s6 m6">
+                    <div className="card horizontal teal lighten-2 ">
+                        <img className="houseImg" src={house3} alt="profile" />
+                        <div className="card-stacked">
+                            <div className="card-content">
+                                <a href="https://www.google.com/">Housing</a>
+                                <p>Location: Skopapsh Village</p>
+                                <p>Phone: (123) 456-7890</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div className="col s6 m6">
+                    <div className="card horizontal teal lighten-2 ">
+                        <img className="houseImg" src={house2} alt="profile" />
+                        <div className="card-stacked">
+                            <div className="card-content">
+                                <a href="https://www.google.com/">Housing</a>
+                                <p>Location: Skopapsh Village</p>
+                                <p>Phone: (123) 456-7890</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div className="col s6 m6">
+                    <div className="card horizontal teal lighten-2 ">
+                        <img className="houseImg" src={house1} alt="profile" />
+                        <div className="card-stacked">
+                            <div className="card-content">
+                                <a href="https://www.google.com/">Housing</a>
+                                <p>Location: Skopapsh Village</p>
+                                <p>Phone: (123) 456-7890</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div className="col s6 m6">
+                    <div className="card horizontal teal lighten-2 ">
+                        <img className="houseImg" src={house2} alt="profile" />
+                        <div className="card-stacked">
+                            <div className="card-content">
+                                <a href="https://www.google.com/">Housing</a>
+                                <p>Location: Skopapsh Village</p>
+                                <p>Phone: (123) 456-7890</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         )
     }

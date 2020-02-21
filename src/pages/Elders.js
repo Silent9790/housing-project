@@ -1,6 +1,10 @@
 import React from "react";
 import EldersJumbotron from "../components/EldersJumbotron";
 import EldersCards from "../components/EldersCards";
+import EldersLinkCard from "../components/EldersLinkCard";
+// import EldersLinkCard from "../components/EldersLinkCard";
+
+
 // import HousingProgram from "../pictures/HousingProgram.png"
 // import InsuranceAssistance from "../pictures/InsuranceAssistance.png"
 
@@ -12,12 +16,7 @@ function Elders() {
       {/* <h1>Elders</h1> */}
       <EldersJumbotron/>
       <EldersCards />
-      {/* <a href = "https://drive.google.com/file/d/1YoOlWrg4INe04Y6XrcvsWHaBlMV4cwiJ/view?usp=sharing">
-        <img src = {HousingProgram} alt = "pdf"/>
-      </a>
-      <a href = "https://drive.google.com/file/d/1-K8tX2fT0cxdFIvLieAlAYp_gWJDthVg/view?usp=sharing">
-        <img src = {InsuranceAssistance} alt = "pdf"/>
-      </a> */}
+  
     </div>
   );
 }
