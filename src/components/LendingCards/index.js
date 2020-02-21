@@ -10,14 +10,14 @@ function LendingCards() {
       <div className="row lending-box">
         <div className="col s3"></div>
         <div className="col s6">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src={app1} alt="App"></img>
+          <div className="card">
+            <div className="card-image waves-effect waves-block waves-light">
+              <img className="activator" src={app1} alt="App"></img>
             </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">
+            <div className="card-content">
+              <span className="card-title activator grey-text text-darken-4">
                 Application Part One
-                <i class="material-icons right">more_vert</i>
+                <i className="material-icons right">more_vert</i>
               </span>
               <p>
                 <a
@@ -29,9 +29,9 @@ function LendingCards() {
                 </a>
               </p>
             </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">
-                Application Part One<i class="material-icons right">close</i>
+            <div className="card-reveal">
+              <span className="card-title grey-text text-darken-4">
+                Application Part One<i className="material-icons right">close</i>
               </span>
               <p>
                 This is part one of the Housing Authority Application Checklist.
@@ -39,14 +39,14 @@ function LendingCards() {
             </div>
           </div>
 
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src={app2} alt="App"></img>
+          <div className="card">
+            <div className="card-image waves-effect waves-block waves-light">
+              <img className="activator" src={app2} alt="App"></img>
             </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">
+            <div className="card-content">
+              <span className="card-title activator grey-text text-darken-4">
                 Application Part Two
-                <i class="material-icons right">more_vert</i>
+                <i className="material-icons right">more_vert</i>
               </span>
               <p>
                 <a
@@ -58,9 +58,9 @@ function LendingCards() {
                 </a>
               </p>
             </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">
-                Application Part Two<i class="material-icons right">close</i>
+            <div className="card-reveal">
+              <span className="card-title grey-text text-darken-4">
+                Application Part Two<i className="material-icons right">close</i>
               </span>
               <p>
                 This is part two of the Housing Authority Application Checklist.
@@ -68,14 +68,14 @@ function LendingCards() {
             </div>
           </div>
 
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src={Housing} alt="House"></img>
+          <div className="card">
+            <div className="card-image waves-effect waves-block waves-light">
+              <img className="activator" src={Housing} alt="House"></img>
             </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">
+            <div className="card-content">
+              <span className="card-title activator grey-text text-darken-4">
                 Housing Stabilization Program
-                <i class="material-icons right">more_vert</i>
+                <i className="material-icons right">more_vert</i>
               </span>
               <p>
                 <a
@@ -87,10 +87,10 @@ function LendingCards() {
                 </a>
               </p>
             </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">
+            <div className="card-reveal">
+              <span className="card-title grey-text text-darken-4">
                 Housing Stabilization Program
-                <i class="material-icons right">close</i>
+                <i className="material-icons right">close</i>
               </span>
               <p>
                 The purpose of the Housing Stabilization Assistance Program is

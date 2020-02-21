@@ -22,7 +22,11 @@ function Loans() {
             <p>
             Try our loan calculator tool:
             </p>
+            </div>
+
+            <div>
             <LoanCalculator />
+
             </div>
            
 
