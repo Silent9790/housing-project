@@ -1,16 +1,16 @@
-.loginTitle{
+.createAccountTitle{
     font-weight: bold;
     margin-top: 7vh;
     margin-bottom: 5vh;
     text-align: center;
-    padding-right: 23vw;
+    padding-right: 27vw;
 }
 
-.loginCard{
-    height: 50vh;
+.createAccountCard{
+    height: 105vh;
 }
 
-.loginButton{
+.createAccountButton{
     width: 120px;
     height: 40px;
     margin-right: 5vw;
@@ -18,13 +18,22 @@
     border: 0px;
 }
 
-.loginButton:hover{
+.createAccountButton:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     background-color: #4DB6AC;
     color: white;
     cursor: pointer;
 }
 
-#loginBumper{
+.firstNameBox{
+    margin-right: 5vw;
+}
+
+.lastNameText{
+    float: right;
+    padding-right: 8vw;
+}
+
+#createAccountBumper{
     height: 10vh
 }
