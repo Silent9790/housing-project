@@ -3,7 +3,7 @@ import "../CardLinkGrants/style.css";
 import {
     Link
   } from "react-router-dom";
-import Rentals from "../../pictures/rentals.jpg";
+import Rentals from "../../pictures/rentals.png";
 
 function CardRentals(){
     return(

@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
-import Elders from "../../pictures/elders.jpg";
+import Elders from "../../pictures/elders.png";
 
 function CardElders() {
   return (

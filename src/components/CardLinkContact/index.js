@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import {Link } from "react-router-dom";
-import Contact from "../../pictures/contact.jpg";
+import Contact from "../../pictures/contact.png";
 
 function CardContact() {
   return (

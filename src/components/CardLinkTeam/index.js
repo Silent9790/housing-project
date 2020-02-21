@@ -4,7 +4,7 @@ import {
   
     Link
   } from "react-router-dom";
-import Team from "../../pictures/guy.jpg";
+import Team from "../../pictures/team.png";
 
 function CardTeam(){
     return(

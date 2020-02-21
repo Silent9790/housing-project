@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
-import Grants from "../../pictures/grants.jpg";
+import Grants from "../../pictures/grants.png";
 
 function CardGrants() {
   return (

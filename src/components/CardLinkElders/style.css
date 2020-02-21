@@ -2,3 +2,7 @@
     font-size: 4vh;
     color: black;
 }
+.card {
+    margin: 0 auto;
+    width: 300px;
+}
