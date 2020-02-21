@@ -1,11 +1,12 @@
 import React from "react";
+import ContactJumbotron from "../components/ContactJumbotron";
 
 function Contact() {
-    return (
-        <div>
-            <h1 className="center-align">Contact</h1>
-        </div >
-    );
+  return (
+    <div className="container">
+      <ContactJumbotron />
+    </div>
+  );
 }
 
 export default Contact;
