@@ -1,6 +1,12 @@
 import React from "react";
 // import "./style.css";
 import grantsImg from "../../pictures/sheep.jpg";
+import lego from "../../pictures/lego1.jpeg";
+import lego1 from "../../pictures/lego2.jpeg";
+import lego2 from "../../pictures/lego3.jpeg";
+// import lego3 from "../../pictures/lego4.jpeg";
+import house3 from "../../pictures/b2.jpeg";
+
 
 function GrantsJumbotron ({ children }) {
   return (
@@ -8,11 +14,12 @@ function GrantsJumbotron ({ children }) {
       className="jumbotron"
     >
       {children}
+      
       <div id="jumboBar">
-        <img id="rentalImg" src={grantsImg} alt="Rental Image" />
+        <img id="rentalImg" src={house3} alt="Rental Image" />
         <h3 id="rentalTitle">Grants Program</h3>
         {/* <p id="rentalHeadingText">Visit one of our 302 rental properties within or near the reservation.</p> */}
-        <p className = "center">
+        <p className = "center text-white">
        You get a grant.. you all get a grant. Just Kidding. Only enrolled members get a grant.
          </p>
         <a href="https://drive.google.com/file/d/1DbFm-xqE074PASreCpoHtumR7b_QHGnw/view" target="_blank"><button id="applyNow">Apply Now</button></a>

@@ -1,5 +1,6 @@
 import React from "react";
 import EldersJumbotron from "../components/EldersJumbotron";
+import EldersCards from "../components/EldersCards";
 // import HousingProgram from "../pictures/HousingProgram.png"
 // import InsuranceAssistance from "../pictures/InsuranceAssistance.png"
 
@@ -10,6 +11,7 @@ function Elders() {
     <div>
       {/* <h1>Elders</h1> */}
       <EldersJumbotron/>
+      <EldersCards />
       {/* <a href = "https://drive.google.com/file/d/1YoOlWrg4INe04Y6XrcvsWHaBlMV4cwiJ/view?usp=sharing">
         <img src = {HousingProgram} alt = "pdf"/>
       </a>
