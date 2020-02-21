@@ -20,12 +20,12 @@ return(
 <div className="row">
     <div>
         <h4>Loans provided include:</h4>
-    <ul class="collection">
-      <li class="collection-item">New construction of single-family homes on tribal lands or individual allotted lands, constructed through the Housing Authority.
+    <ul className="collection">
+      <li className="collection-item">New construction of single-family homes on tribal lands or individual allotted lands, constructed through the Housing Authority.
 </li>
-      <li class="collection-item">Purchase of new and previously occupied stick-built or modular single-family homes.</li>
-      <li class="collection-item">Refinancing of existing homes, including mobile homes that were purchased prior to June 2000.</li>
-      <li class="collection-item">Rehabilitation of houses and mobile homes (on the reservation only).</li>
+      <li className="collection-item">Purchase of new and previously occupied stick-built or modular single-family homes.</li>
+      <li className="collection-item">Refinancing of existing homes, including mobile homes that were purchased prior to June 2000.</li>
+      <li className="collection-item">Rehabilitation of houses and mobile homes (on the reservation only).</li>
     </ul>
     </div>
 </div>

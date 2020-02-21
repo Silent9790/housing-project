@@ -4,25 +4,25 @@ import {
   
     Link
   } from "react-router-dom";
-import Team from "../../pictures/guy.jpg";
+import Team from "../../pictures/team.png";
 
 function CardTeam(){
     return(
 
 
-<div class="card">
+<div className="card" style={{width:"20vw", margin: "0 auto"}}>
   
-  <div class="card-image waves-effect waves-block waves-light">
-    <img class="activator" src={Team} alt="Team"></img>
+  <div className="card-image waves-effect waves-block waves-light">
+    <img className="activator" src={Team} alt="Team"></img>
   </div>
   
-  <div class="card-content">
-    <span class="card-title activator grey-text text-darken-4">Team<i class="material-icons right">more_vert</i></span>
+  <div className="card-content">
+    <span className="card-title activator grey-text text-darken-4">Team<i className="material-icons right">more_vert</i></span>
     <Link to="/team">Look At Our Team</Link>
   </div>
   
-  <div class="card-reveal">
-    <span class="card-title grey-text text-darken-4">Team<i class="material-icons right">close</i></span>
+  <div className="card-reveal">
+    <span className="card-title grey-text text-darken-4">Team<i className="material-icons right">close</i></span>
     <p>Take a look at our team!</p>
   </div>
   </div>
