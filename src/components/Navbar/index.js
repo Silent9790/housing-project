@@ -45,6 +45,9 @@ function Navbar() {
               <li>
                 <Link to="/team">Team</Link>
               </li>
+              <li>
+                <Link to="/maintenance">Maintenance</Link>
+              </li>
 
               <li>
                 <Link to="/login">Login</Link>

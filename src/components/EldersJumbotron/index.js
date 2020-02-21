@@ -1,7 +1,7 @@
 import React from "react";
 import HousingProgram from "../../pictures/HousingProgram.png";
 import InsuranceAssistance from "../../pictures/InsuranceAssistance.png";
-import ElderCard from "../ElderCard"
+import elderly from "../../pictures/elders.jpg";
 
 function EldersJumbotron({ children }) {
   return (
@@ -16,30 +16,17 @@ function EldersJumbotron({ children }) {
       className="jumbotron"
     >
       {children}
-      <ElderCard/>
-      <div className="container">
-        <div className="row">
-          <div className="col s4">
-            <a href="https://drive.google.com/file/d/1YoOlWrg4INe04Y6XrcvsWHaBlMV4cwiJ/view?usp=sharing"  rel="noopener noreferrer" target="_blank">
-              <img src={HousingProgram} alt="pdf" style={{ height: "300px" }} />
-            </a>
-          </div>
-          <div className = "col s3">
-
-          </div>
-
-          <div className="col s4">
-            <a href="https://drive.google.com/file/d/1-K8tX2fT0cxdFIvLieAlAYp_gWJDthVg/view?usp=sharing"  rel="noopener noreferrer" target="_blank">
-              <img
-                src={InsuranceAssistance}
-                alt="pdf"
-                style={{ height: "300px" }}
-              />
-            </a>
-          </div>
-        </div>
+      <div id="jumboBar">
+        <img id="rentalImg" src={elderly} alt="Rental Image" />
+        <h3 id="rentalTitle">Muckleshoot Elder Program</h3>
+        {/* <p id="rentalHeadingText">Visit one of our 302 rental properties within or near the reservation.</p> */}
+        <p className = "center text-white">
+       You get a grant.. you all get a grant. Just Kidding. Only enrolled members get a grant.
+         </p>
+        <a href="https://drive.google.com/file/d/1DbFm-xqE074PASreCpoHtumR7b_QHGnw/view" target="_blank"><button id="applyNow">Apply Now</button></a>
       </div>
     </div>
+    // </div> 
   );
 }
 
