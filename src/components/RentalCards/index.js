@@ -4,6 +4,7 @@ import "./style.css";
 import Town1 from "../../pictures/town1.jpg";
 import Town2 from "../../pictures/town2.jpg";
 import Town3 from "../../pictures/town3.jpg";
+import AddressCheck from "../AddressCheck"
 
 
 
@@ -27,33 +28,33 @@ export default class RentalCards extends Component {
                                 <p>ELIGIBILITY: Open to tribal members whose income is currently at or below King County median income. A hair sample drug test must be taken and passed in order to qualify.</p>
                             </div>
                             <div className="card-action">
-                                <a href="https://drive.google.com/file/d/1ni7SXj7NiSVokzoPO3eUL5sQ-k6-U3Xq/view?usp=sharing" target="_blank">Application PDF</a>
+                                <a href="https://drive.google.com/file/d/1ni7SXj7NiSVokzoPO3eUL5sQ-k6-U3Xq/view?usp=sharing"  rel="noopener noreferrer" target="_blank">Application PDF</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <h5>Rental Program Features & Benefits:</h5>
-                <ul class="collapsible">
+                <ul className="collapsible">
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">add_circle_outline</i>Low Rent Based on Household Income</div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Low Rent Based on Household Income</div>
+                        <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">add_circle_outline</i>Utility Allowance Based on Household Usage</div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Utility Allowance Based on Household Usage</div>
+                        <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">add_circle_outline</i>Garbage, Water, Sewer and Lawn Service Provided</div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Garbage, Water, Sewer and Lawn Service Provided</div>
+                        <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">add_circle_outline</i>Several ADA Homes Availible for Accessibility Needs</div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Several ADA Homes Availible for Accessibility Needs</div>
+                        <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">add_circle_outline</i>Special Rents for Elders, Veterans and Disabled Households</div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Special Rents for Elders, Veterans and Disabled Households</div>
+                        <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                     </li>
                 </ul>
 
@@ -62,48 +63,53 @@ export default class RentalCards extends Component {
                 <h5>Our Locations:</h5>
                 <div className="row locationCards">
                     <div className="col s4 m4">
-                        <div className="card rentalCard">
+                        <div className="card">
                             <div className="card-image">
-                                <img className="rentalImg" src={Town1} />
+                                <img src={Town1} alt="Town" />
                                 <span className="card-title">Skopabsh Village</span>
                             </div>
                             <div className="card-content">
                                 <p>40 homes built in the 1970s'</p><br/>
                             </div>
                             <div className="card-action">
-                                <a href="https://www.google.com/maps/place/38026+158th+Ave+SE,+Auburn,+WA+98092/@47.2616995,-122.1394581,14.6z/data=!4m5!3m4!1s0x5490f6dd2bf87749:0x6415079db8a26744!8m2!3d47.260361!4d-122.1297829" target="_blank">View on Google Maps</a>
+                                <a href="https://www.google.com/maps/place/38026+158th+Ave+SE,+Auburn,+WA+98092/@47.2616995,-122.1394581,14.6z/data=!4m5!3m4!1s0x5490f6dd2bf87749:0x6415079db8a26744!8m2!3d47.260361!4d-122.1297829"  rel="noopener noreferrer" target="_blank">View on Google Maps</a>
                             </div>
                         </div>
                     </div>
 
                     <div className="col s4 m4">
-                        <div className="card rentalCard">
+                        <div className="card">
                             <div className="card-image">
-                                <img className="rentalImg" src={Town2} />
+                                <img src={Town2} alt="Town" />
                                 <span className="card-title">Cedar Village</span>
                             </div>
                             <div className="card-content">
                                 <p>24 homes built in 1997</p><br/>
                             </div>
                             <div className="card-action">
-                                <a href="https://www.google.com/maps/place/39220+165th+Pl+SE,+Auburn,+WA+98092/@47.2499351,-122.1199569,16.48z/data=!4m5!3m4!1s0x5490f6d181c8b877:0x986a9b386626147b!8m2!3d47.2496201!4d-122.1202608" target="_blank">View on Google Maps</a>
+                                <a href="https://www.google.com/maps/place/39220+165th+Pl+SE,+Auburn,+WA+98092/@47.2499351,-122.1199569,16.48z/data=!4m5!3m4!1s0x5490f6d181c8b877:0x986a9b386626147b!8m2!3d47.2496201!4d-122.1202608"  rel="noopener noreferrer" target="_blank">View on Google Maps</a>
                             </div>
                         </div>
                     </div>
 
                     <div className="col s4 m4">
-                        <div className="card rentalCard">
+                        <div className="card">
                             <div className="card-image">
-                                <img className="rentalImg" src={Town3} />
+                                <img src={Town3} alt="Town" />
                                 <span className="card-title">Davis Community</span>
                             </div>
                             <div className="card-content">
                                 <p>48 homes built in 2006 (6 Tribal and 2 ARRA Homes)</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" target="_blank">View on Google Maps</a>
+                                <a href="https://www.google.com/maps/place/Al+Borlin+Park/@47.885539,-121.9812634,13z/data=!4m5!3m4!1s0x549aa6f035620985:0x2e4c374ba7bb2268!8m2!3d47.8527667!4d-121.964035"  rel="noopener noreferrer" target="_blank">View on Google Maps</a>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="col s6 m6">
+                    <div className="card rentalCard">
+                        <AddressCheck/>
                     </div>
                 </div>
             </div>

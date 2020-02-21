@@ -4,7 +4,7 @@ import grantsImg from "../../pictures/sheep.jpg";
 
 function GrantsJumbotron ({ children }) {
   return (
-    <div style={{ height: 575, clear: "both", paddingTop: 100, paddingBottom: 100, textAlign: "center", backgroundColor: "grey"  }}
+    <div style={{ height: 575, clear: "both", paddingTop: 100, paddingBottom: 100, textAlign: "center", backgroundColor: "white "  }}
       className="jumbotron"
     >
       {children}
@@ -15,7 +15,7 @@ function GrantsJumbotron ({ children }) {
         <p className = "center">
        You get a grant.. you all get a grant. Just Kidding. Only enrolled members get a grant.
          </p>
-        <a href="https://drive.google.com/file/d/1ni7SXj7NiSVokzoPO3eUL5sQ-k6-U3Xq/view?usp=sharing" target="_blank"><button id="applyNow">Apply Now</button></a>
+        <a href="https://drive.google.com/file/d/1DbFm-xqE074PASreCpoHtumR7b_QHGnw/view" target="_blank"><button id="applyNow">Apply Now</button></a>
       </div>
     </div>
   );
