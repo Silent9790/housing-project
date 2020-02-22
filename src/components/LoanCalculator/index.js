@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./style.css"
+import "./style.css";
 
 function LoanCalculator() {
   /*vvvvvvvvvvvv Used for calculator vvvvvvvvvvv */
@@ -7,15 +7,19 @@ function LoanCalculator() {
 
   const [annualRateInput, setAnnualRateInput] = useState("");
 
+  const [calculated, setCalculated] = useState("");
+
   function calculate() {
     const terms = document.getElementById("terms").value;
     const calculatingRate = (0.01 * annualRateInput) / 12;
     // const payment = Math.pow(1.005,360)
-    const payment =
+    let payment =
       loanAmountInput /
       ((Math.pow(1 + calculatingRate, terms) - 1) /
         (calculatingRate * Math.pow(1 + calculatingRate, terms)));
-    alert(payment);
+    payment = payment.toFixed(2);
+    setCalculated(payment);
+    // alert(payment);
   }
 
   function handleInputChange(event) {
@@ -43,7 +47,9 @@ function LoanCalculator() {
             <div className="card-content white-text">
               <span className="card-title center-align">Loan Calculator</span>
               <div className="loanAmountWithLabel">
-                <label htmlFor="loanAmount" className="text-white">Loan amount</label>
+                <label htmlFor="loanAmount" className="text-white">
+                  Loan amount
+                </label>
                 <br></br>
                 <input
                   type="number"
@@ -57,7 +63,9 @@ function LoanCalculator() {
               </div>
 
               <div className="APRWithLabel">
-                <label htmlFor="annualRate" className="text-white">Annual Percentage Rate</label>
+                <label htmlFor="annualRate" className="text-white">
+                  Annual Percentage Rate
+                </label>
                 <br></br>
                 <input
                   type="number"
@@ -71,7 +79,9 @@ function LoanCalculator() {
               </div>
 
               <div className="termsWithLabel">
-                <label htmlFor="terms" className="text-white">Number of months</label>
+                <label htmlFor="terms" className="text-white">
+                  Number of months
+                </label>
                 <select
                   name="terms"
                   id="terms"
@@ -86,12 +96,34 @@ function LoanCalculator() {
               </div>
             </div>
             <div className="card-action center-align">
-              <input type="submit" value="Estimate" id="estimate" onClick={calculate} />
+              <input
+                type="submit"
+                value="Estimate"
+                id="estimate"
+                onClick={calculate}
+              />
             </div>
           </div>
         </div>
         <div className="col s2"></div>
       </div>
+      {calculated ? (
+        <div className="row">
+          <div className="col">
+            <div className="white-text">
+              <div className="card horizontal teal lighten-2">
+                <div className="card-stacked">
+                  <div className="card-content center-align">
+                    <h5>Your estimated monthly payment is {calculated}</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : (
+        <div />
+      )}
     </div>
   );
 }

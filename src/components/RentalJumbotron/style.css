@@ -3,14 +3,41 @@
     height: 45vh;
     border-top: tan solid 15px;
     border-bottom: tan solid 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #rentalImg{
     width: 660px;
     height: 350px;
-    float: left;
+    /* float: left; */
     padding-left: 7vw;
     padding-top: 4vh;
+}
+
+@media(max-width: 900px) {
+    
+}
+@media(max-width: 1022px){
+    #rentalImg{
+        min-width: 360px;
+        min-height: 200px;
+        }
+    #jumboBar{
+        height: 450px;
+        justify-content: center;
+    }
+    .titleDiv{
+        width: 400px;
+        position: relative;
+        top: -40px
+    }
+    #rentalImg{
+        padding-left:0;
+    }
+}
+.titleDiv{
+    width: 600px;
 }
 
 #rentalTitle{
