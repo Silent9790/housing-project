@@ -7,39 +7,47 @@ import CardRentals from "../CardLinkRentals";
 import CardElders from "../CardLinkElders";
 import CardTeam from "../CardLinkTeam";
 import CardContact from "../CardLinkContact";
+import Wrapper from '../Wrapper';
 
 function Jumbotron({ children }) {
   return (
-    <div style={{ height: 1800, clear: "both", textAlign: "center" }}
-
-      className="jumbotron"
+    <div
+      className="jumbotron main"
     >
-      {children}
       <Carousel />
       <Mission />
-      <div className="row">
-        <div className="col s4">
-          <CardGrants/>
-        </div>
-        <div className="col s4">
-          <CardLending/>
-        </div>
-        <div className="col s4">
-          <CardRentals/>
-        </div>
-      </div>
-      <div className="row">
 
+      <Wrapper>
+        <CardGrants/>
+        <CardLending/>
+        <CardRentals/>
+        <CardElders/>
+        <CardTeam/>
+        <CardContact/>
+      </Wrapper>
+{/*       
+      <div className="row">
         <div className="col s4">
-          <CardElders/>
+          <CardGrants />
         </div>
         <div className="col s4">
-          <CardTeam/>
+          <CardLending />
         </div>
         <div className="col s4">
-          <CardContact/>
+          <CardRentals />
         </div>
       </div>
+      <div className="row">
+        <div className="col s4">
+          <CardElders />
+        </div>
+        <div className="col s4">
+          <CardTeam />
+        </div>
+        <div className="col s4">
+          <CardContact />
+        </div>
+      </div> */}
     </div>
   );
 }

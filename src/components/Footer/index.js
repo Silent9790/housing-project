@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../pictures/muckleshootlogo.png";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Route, Link } from "react-router-dom";
 import "./style.css";
 
 function Footer() {
@@ -20,6 +20,8 @@ function Footer() {
                 <a
                   className="white-link"
                   href="https://www.muckleshootcasino.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Casino
                 </a>
@@ -28,6 +30,8 @@ function Footer() {
                 <a
                   className="white-link"
                   href="https://www.muckleshootbingo.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Bingo
                 </a>
@@ -39,6 +43,8 @@ function Footer() {
                 <a
                   className="white-link"
                   href="#http://www.muckleshoot.nsn.us/community/news.aspx"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Health/Wellness
                 </a>
@@ -47,6 +53,8 @@ function Footer() {
                 <a
                   className="white-link"
                   href="http://whiteriveramphitheater.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   White River Ampitheatre
                 </a>
@@ -55,7 +63,12 @@ function Footer() {
 
             <div className="row">
               <div className="col s6">
-                <a className="white-link" href="https://jointrivers.com/">
+                <a
+                  className="white-link"
+                  href="https://jointrivers.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Joint Rivers
                 </a>
               </div>
@@ -63,6 +76,8 @@ function Footer() {
                 <a
                   className="white-link"
                   href="http://www.muckleshoot.nsn.us/default.aspx"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Native Indian Tribe Government
                 </a>
@@ -74,6 +89,8 @@ function Footer() {
                 <a
                   className="white-link"
                   href="http://www.muckleshoottribalschool.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Tribal School
                 </a>
@@ -82,6 +99,8 @@ function Footer() {
                 <a
                   className="white-link"
                   href="https://www.nwic.edu/nwic-sites/muckleshoot-campus/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Tribal College
                 </a>
@@ -108,13 +127,14 @@ function Footer() {
             <ul>
               <li className="white-text">Phone Number 253-833-7616</li>
               <li className="white-text">Fax Number 253-876-2862</li>
-              <li className="white-text">38037 158th Ave SE, Auburn, Wa 98092</li>
+              <li className="white-text">
+                38037 158th Ave SE, Auburn, Wa 98092
+              </li>
               <li className="white-link">
                 <Link to="/contact" className="white-link">
                   Contact Us
                 </Link>
               </li>
-            
             </ul>
           </div>
         </div>
