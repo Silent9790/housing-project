@@ -5,6 +5,8 @@ import Leg1 from "../../pictures/leg3.jpeg";
 // import lego2 from "../../pictures/a1.jpeg";
 import house1 from "../../pictures/b4.jpeg";
 import house2 from "../../pictures/b3.jpeg";
+import CardContact from "../CardContact";
+
 
 
 
@@ -33,26 +35,9 @@ export default class RentalCards extends Component {
                         </div>
                     </div>
                 </div>
-
-                <h5>Grant Program Features & Benefits:</h5>
-                <ul class="collapsible">
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">add_circle_outline</i>Home Repair </div>
-                        <div class="collapsible-body"><span>Max is $90,0000</span></div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">add_circle_outline</i>Home Assistance</div>
-                        <div class="collapsible-body"><span>Max is $90,000</span></div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">add_circle_outline</i>Down Payment </div>
-                        <div class="collapsible-body"><span>Max is $90,000</span></div>
-                    </li>
-                </ul>
-
-
-
+{/* <CardContact />  */}
                 <h5>Grant Possiblilities:</h5>
+                <CardContact /> 
 
                 {/* 
                 <div className="row locationCards">

@@ -12,12 +12,12 @@ class CardContact extends React.Component {
               className="white-text"
             
             >
-              <div className="card horizontal teal lighten-2">
+              <div className="card  teal lighten-2">
                 <div className="card-stacked">
                   <div className="card-content center-align">
                     <h5>Need to get in touch?</h5>
                   </div>
-                  <div className="card-content">
+                  <div className="card-content center-align">
                     <p>
                       If you want some help, or you even have questions, click
                       here to get in contact with us.

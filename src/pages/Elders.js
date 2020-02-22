@@ -12,12 +12,12 @@ import EldersLinkCard from "../components/EldersLinkCard";
 function Elders() {
 
   return (
-    <div>
-      {/* <h1>Elders</h1> */}
-      <EldersJumbotron/>
-      <EldersCards />
-  
+    <main >
+      <div>
+        <EldersJumbotron />
+        <EldersCards />
     </div>
+    </main>
   );
 }
 export default Elders;

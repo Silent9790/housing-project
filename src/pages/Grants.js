@@ -4,12 +4,12 @@ import GrantsCard4 from "../components/GrantsCard4";
 
 function Grants() {
   return (
-
+<main > 
     <div className ="grants">
   <GrantsJumbotron />
   <GrantsCard4 />
-
     </div>
+    </main> 
   );
 }
 
