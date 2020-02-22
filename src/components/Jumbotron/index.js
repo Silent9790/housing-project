@@ -8,13 +8,15 @@ import CardElders from "../CardLinkElders";
 import CardTeam from "../CardLinkTeam";
 import CardContact from "../CardLinkContact";
 import Wrapper from '../Wrapper';
+import HomeHeader from "../HomeHeader";
 
 function Jumbotron({ children }) {
   return (
     <div
       className="jumbotron main"
     >
-      <Carousel />
+      {/* <Carousel /> */}
+      <HomeHeader/>
       <Mission />
 
       <Wrapper>
