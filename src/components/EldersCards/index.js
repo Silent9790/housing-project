@@ -11,7 +11,6 @@ import CardContact from "../CardContact";
 import { BrowserRouter as Route, Link } from "react-router-dom";
 
 
-// import HousingProgram from "../../pictures/HousingProgram.png";
 import InsuranceAssistance from "../../pictures/InsuranceAssistance.png";
 
 export default class RentalCards extends Component {
@@ -50,7 +49,7 @@ export default class RentalCards extends Component {
                                     <div className="row">
                                         <div className="col s4">
                                             <a href="https://drive.google.com/file/d/1YoOlWrg4INe04Y6XrcvsWHaBlMV4cwiJ/view?usp=sharing" rel="noopener noreferrer" target="_blank">
-                                                <img src={HousingProgram} alt="pdf" style={{ height: "300px" }} />
+                                                <img src={house1} alt="pdf" style={{ height: "300px" }} />
                                             </a>
                                         </div>
                                         <div className="col s3">

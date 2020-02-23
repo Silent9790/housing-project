@@ -1,9 +1,6 @@
 import React from "react";
 // import "./style.css";
 import grantsImg from "../../pictures/sheep.jpg";
-import lego from "../../pictures/lego1.jpeg";
-import lego1 from "../../pictures/lego2.jpeg";
-import lego2 from "../../pictures/lego3.jpeg";
 // import lego3 from "../../pictures/lego4.jpeg";
 import house3 from "../../pictures/b2.jpeg";
 

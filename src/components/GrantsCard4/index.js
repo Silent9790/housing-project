@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import M from "materialize-css";
 import "./style.css";
-import Leg1 from "../../pictures/leg3.jpeg";
-// import lego2 from "../../pictures/a1.jpeg";
 import house1 from "../../pictures/b4.jpeg";
 import house2 from "../../pictures/b3.jpeg";
 import CardContact from "../CardContact";
