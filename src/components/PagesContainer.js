@@ -29,34 +29,28 @@ class PagesContainer extends Component {
 
   render() {
     return (
-        <div className="container-fluid">
-          <Router>
-            <Navbar
-              // currentPage={this.state.currentPage}
-              // handlePageChange={this.handlePageChange}
-            />
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/grants" component={Grants} />
-              <Route exact path="/lending" component={Lending} />
-              <Route exact path="/maintenance" component={Maintenance} />
-              <Route exact path="/rentals" component={Rentals} />
-              <Route exact path="/elders" component={Elders} />
-              <Route exact path="/team" component={Team} />
-              <Route exact path="/contact" component={Contact} />
-              <Route exact path="/login" component={Login} />
-              <Route exact path="/nomatch" component={NoMatch} />
+      <div className="container-fluid">
+        <Router>
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/grants" component={Grants} />
+            <Route exact path="/lending" component={Lending} />
+            <Route exact path="/maintenance" component={Maintenance} />
+            <Route exact path="/rentals" component={Rentals} />
+            <Route exact path="/elders" component={Elders} />
+            <Route exact path="/team" component={Team} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/nomatch" component={NoMatch} />
 
-              <Route path="*">
-                <Redirect to={"/nomatch"} />
-              </Route>
-            </Switch>
-            <Footer
-              // currentPage={this.state.currentPage}
-              // handlePageChange={this.handlePageChange}
-            />
-          </Router>
-        </div>
+            <Route path="*">
+              <Redirect to={"/nomatch"} />
+            </Route>
+          </Switch>
+          <Footer />
+        </Router>
+      </div>
     );
   }
 }
