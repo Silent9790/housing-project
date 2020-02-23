@@ -23,18 +23,17 @@ class PagesContainer extends Component {
     currentPage: "Home"
   };
 
-  handlePageChange = page => {
-    this.setState({ currentPage: page });
-  };
+  // handlePageChange = page => {
+  //   this.setState({ currentPage: page });
+  // };
 
   render() {
     return (
-      <div className="bg">
         <div className="container-fluid">
           <Router>
             <Navbar
-              currentPage={this.state.currentPage}
-              handlePageChange={this.handlePageChange}
+              // currentPage={this.state.currentPage}
+              // handlePageChange={this.handlePageChange}
             />
             <Switch>
               <Route exact path="/" component={Home} />
@@ -53,12 +52,11 @@ class PagesContainer extends Component {
               </Route>
             </Switch>
             <Footer
-              currentPage={this.state.currentPage}
-              handlePageChange={this.handlePageChange}
+              // currentPage={this.state.currentPage}
+              // handlePageChange={this.handlePageChange}
             />
           </Router>
         </div>
-      </div>
     );
   }
 }
