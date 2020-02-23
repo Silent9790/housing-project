@@ -2,15 +2,46 @@ a{
     color: #ffebcd
 }
 .footer-logo{
-    bottom: 100px;
+    display: flex;
+    bottom: 90;
     width: 50%;
+    margin: 0 auto;
+    
 }
-.white-link{
+.footer-white-link{
     color: white;
 }
-.white-link:hover{
+.footer-white-link:hover{
     color: rgb(209, 209, 209);
 }
 .footer-color{
     background: rgb(156, 156, 156);
+}
+.row{
+    margin-bottom: 0;
+}
+.footer-white-text-main{
+    color: white;
+    font-size: 2vw;
+}
+.footer-white-text{
+    color: white;
+}
+@media (max-width: 900px) {
+    .footer-white-text-main{
+        font-size: 13px;
+    }
+}
+@media (max-width: 800px) {
+    .footer-logo{
+        width: 120px;
+        margin: 0 auto;
+
+    }
+}
+@media (max-width: 700px) {
+    .footer-white-text{
+        font-size: 10px;
+        margin-bottom: 5vh;
+    }
 }
