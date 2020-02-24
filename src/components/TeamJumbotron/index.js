@@ -1,20 +1,23 @@
 import React from "react";
 import "./style.css";
-import teamImg from "../../pictures/meeting.jpg";
+import rentalImg from "../../pictures/a9.jpeg";
 
-function TeamJumbotron({ children }) {
+
+function RentalJumbotron({ children }) {
   return (
-    <div style={{ height: 550, clear: "both", paddingTop: 100, paddingBottom: 100, textAlign: "center", backgroundColor: "white"  }}
+    <div style={{ height: 575, clear: "both", paddingTop: 100, paddingBottom: 100, textAlign: "center", backgroundColor: "white"  }}
       className="jumbotron"
     >
       {children}
-      <div id="jumboTeam">
-        <img id="teamImg" src={teamImg} alt="Team" />
-        <h3 id="teamTitle">Muckleshoot Housing Authority Team</h3>
-        <a href="https://www.google.com/"  rel="noopener noreferrer" target="_blank"><button id="meetTeam">Arrange a Meeting</button></a>
+      <div id="jumboBar">
+        <img id="rentalImg" src={rentalImg} alt="Rental" style = {{width: "40vw", height: "22vw" }}/>
+        <div className = "titleDiv">
+          <h3 id="rentalTitle">Housing Team</h3>
+          <p id="rentalHeadingText">Meet the Housing Team!</p>
+        </div>
       </div>
     </div>
   );
 }
 
-export default TeamJumbotron;
+export default RentalJumbotron;

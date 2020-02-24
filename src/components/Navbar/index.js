@@ -62,6 +62,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-// add right to Ul class if we want to align the links to the right.
-//TODO: Figure out why the Materialize styles isn't working.

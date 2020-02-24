@@ -1,12 +1,6 @@
 import React, { Component } from "react";
 import M from "materialize-css";
-// import "./style.css";
-import Leg1 from "../../pictures/leg3.jpeg";
-import house1 from "../../pictures/b4.jpeg";
-import house2 from "../../pictures/b3.jpeg";
-import house3 from "../../pictures/b1.jpeg";
-import house4 from "../../pictures/b2.jpeg";
-// import ElderCard from "../ElderCard";
+import "./style.css";
 
 import HousingProgram from "../../pictures/HousingProgram.png";
 import InsuranceAssistance from "../../pictures/InsuranceAssistance.png";
@@ -124,35 +118,13 @@ export default class RentalCards extends Component {
         </ul>
         <br />
         <br />
-
-        {/* <div className="container">
-                    <div className="row">
-                        <div className="col s4">
-                            <a href="https://drive.google.com/file/d/1YoOlWrg4INe04Y6XrcvsWHaBlMV4cwiJ/view?usp=sharing" rel="noopener noreferrer" target="_blank">
-                                <img src={HousingProgram} alt="pdf" style={{ height: "300px" }} />
-                            </a>
-                        </div>
-                        <div className="col s3">
-
-                        </div>
-
-                        <div className="col s4">
-                            <a href="https://drive.google.com/file/d/1-K8tX2fT0cxdFIvLieAlAYp_gWJDthVg/view?usp=sharing" rel="noopener noreferrer" target="_blank">
-                                <img
-                                    src={InsuranceAssistance}
-                                    alt="pdf"
-                                    style={{ height: "300px" }}
-                                />
-                            </a>
-                        </div>
-                    </div>
-                </div> */}
+{/* 
         <br />
         <br />
 
         <div className="col s6 m6">
           <div className="card horizontal teal lighten-2 ">
-            <img className="houseImg" src={house3} alt="profile" />
+            <img className="houseImg" src={house4} alt="profile" />
             <div className="card-stacked">
               <div className="card-content">
                 <a href="https://www.google.com/">Housing</a>
@@ -204,34 +176,9 @@ export default class RentalCards extends Component {
           </div>
         </div>
         <br />
+         */}
+</div> 
 
-        <div className="col s6 m6">
-          <div className="card horizontal teal lighten-2 ">
-            <img className="houseImg" src={house1} alt="profile" />
-            <div className="card-stacked">
-              <div className="card-content">
-                <a href="https://www.google.com/">Housing</a>
-                <p>Location: Skopapsh Village</p>
-                <p>Phone: (123) 456-7890</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br />
-
-        <div className="col s6 m6">
-          <div className="card horizontal teal lighten-2 ">
-            <img className="houseImg" src={house2} alt="profile" />
-            <div className="card-stacked">
-              <div className="card-content">
-                <a href="https://www.google.com/">Housing</a>
-                <p>Location: Skopapsh Village</p>
-                <p>Phone: (123) 456-7890</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     );
   }
 }
