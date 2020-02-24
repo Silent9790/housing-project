@@ -91,25 +91,8 @@ function LoginCard() {
               </form>
             </div>
           </div>
-          {/* <input
-            className="loginButton"
-            type="button"
-            value="Login"
-            id="loginlog"
-          />
-          <Link to="/createaccount">
-            <input
-              className="loginButton"
-              type="button"
-              value="Create Account"
-            />
-          </Link> */}
         </div>
-        {/* </form> */}
       </div>
-      {/* </div> */}
-      {/* //     </div> */}
-      {/* //   </div> */}
       <div id="loginBumper"></div>
     </div>
   );
