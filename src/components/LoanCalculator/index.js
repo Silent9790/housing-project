@@ -46,7 +46,7 @@ function LoanCalculator() {
           <div className="card red darken-4">
             <div className="card-content white-text">
               <span className="card-title center-align">Loan Calculator</span>
-              <div className="loanAmountWithLabel">
+              <div className="loanAmountWithLabel center-align">
                 <label htmlFor="loanAmount" className="text-white">
                   Loan amount
                 </label>
@@ -56,7 +56,6 @@ function LoanCalculator() {
                   name="loanAmount"
                   placeholder="Loan amount"
                   required=""
-                  style={{ width: "150px" }}
                   value={loanAmountInput}
                   onChange={handleInputChange}
                 />
@@ -72,7 +71,6 @@ function LoanCalculator() {
                   name="annualRate"
                   placeholder="APR"
                   required=""
-                  style={{ width: "150px" }}
                   value={annualRateInput}
                   onChange={handleInputChange}
                 />
@@ -86,7 +84,7 @@ function LoanCalculator() {
                   name="terms"
                   id="terms"
                   required=""
-                  style={{ display: "block", width: "130px" }}
+                  style={{ display: "block" }}
                 >
                   <option value="12">12</option>
                   <option value="24">24</option>
@@ -99,7 +97,7 @@ function LoanCalculator() {
               <input
                 type="submit"
                 value="Estimate"
-                id="estimate"
+                className="estimate"
                 onClick={calculate}
               />
             </div>

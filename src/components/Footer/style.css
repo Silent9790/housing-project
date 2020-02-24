@@ -27,6 +27,16 @@ a{
 .footer-white-text{
     color: white;
 }
+/* .footer-box{
+    background: rgb(156, 156, 156);
+    background: red;
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    overflow: hidden;
+    bottom:-220vh;
+
+} */
 @media (max-width: 900px) {
     .footer-white-text-main{
         font-size: 13px;

@@ -1,0 +1,9 @@
+.lending-strip {
+  background: rgb(241, 241, 241);
+  height:100px;
+  width: 47%;
+  position: absolute;
+  top: 530px;
+  right: 206px;
+  z-index: 0;
+}

@@ -27,6 +27,22 @@ export default class RentalCards extends Component {
                             <div className="card-action">
                                 <a href="https://drive.google.com/file/d/1KCCTyYqQdzCqjmdpA4R9yy6CaeqyDyZk/view?usp=sharing"  rel="noopener noreferrer" target="_blank">Application PDF</a>
                             </div>
+                            {/* <h5>Grant Program Features & Benefits:</h5>
+                <ul className="collapsible">
+                    <li>
+                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Home Repair </div>
+                        <div className="collapsible-body"><span>Max is $90,0000</span></div>
+                    </li>
+                    <li>
+                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Home Assistance</div>
+                        <div className="collapsible-body"><span>Max is $90,000</span></div>
+                    </li>
+                    <li>
+                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Down Payment </div>
+                        <div className="collapsible-body"><span>Max is $90,000</span></div>
+                    </li>
+                </ul> */}
+
                         </div>
                     </div> 
                     <br/>

@@ -43,7 +43,9 @@ function ContactForm() {
             value="Contact Form Submission"
           ></input>
         </fieldset>
-        <input  className="contact-button" type="submit" value="Send Message"></input>
+        <div>
+          <input  className="contact-button" type="submit" value="Send Message"></input>
+        </div>
       </form>
     </div>
   );

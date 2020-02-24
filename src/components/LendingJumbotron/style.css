@@ -3,6 +3,7 @@
     height: 45vh;
     border-top: tan solid 15px;
     border-bottom: tan solid 15px;
+    z-index: 100;
 }
 
 #rentalImg{
@@ -37,4 +38,10 @@
     background-color: #EF5350;
     color: black;
     cursor: pointer;
+}
+@media (min-width: 1960px) {
+   #rentalImg{
+    max-width: 785px;
+    max-height: 435px;
+   }
 }
