@@ -1,13 +1,12 @@
 import React from "react";
 import Logo from "../../pictures/muckleshootlogo.png";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 import "./style.css";
 
 function Navbar() {
   return (
-    <div >
-    {/* // className="container"> */}
-      <h5>
+    <div>
       <nav className="navbar red darken-4" style={{ height: "90px" }}>
         <div className="row" id="nav-mobile" style={{ margin: "0" }}>
           <div className="col s2">
@@ -56,8 +55,8 @@ function Navbar() {
             </ul>
           </div>
         </div>
+
       </nav>
-      </h5>
     </div>
   );
 }
