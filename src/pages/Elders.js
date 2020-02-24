@@ -9,8 +9,8 @@ function Elders() {
     <div>
       <EldersJumbotron/>
       <EldersCards />
-  
     </div>
   );
 }
+
 export default Elders;

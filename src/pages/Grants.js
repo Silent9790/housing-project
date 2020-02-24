@@ -3,16 +3,13 @@ import GrantsJumbotron from "../components/GrantsJumbotron";
 import GrantsCard4 from "../components/GrantsCard4";
 
 function Grants() {
-  return (
 
+  return (
     <div className ="grants">
   <GrantsJumbotron />
-  <GrantsCard4 />
-
+  <GrantsCard4/>
     </div>
   );
 }
 
 export default Grants;
-//Below is the link for PDF file on its own  on GoogleDrive
-// https://drive.google.com/drive/folders/1xOQpGQW1R9FhgfPwztx7ehPvlwi8Mh6H?usp=sharing
