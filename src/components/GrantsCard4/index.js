@@ -35,18 +35,18 @@ export default class RentalCards extends Component {
                 </div>
 
                 <h5>Grant Program Features & Benefits:</h5>
-                <ul class="collapsible">
+                <ul className="collapsible">
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">add_circle_outline</i>Home Repair </div>
-                        <div class="collapsible-body"><span>Max is $90,0000</span></div>
+                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Home Repair </div>
+                        <div className="collapsible-body"><span>Max is $90,0000</span></div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">add_circle_outline</i>Home Assistance</div>
-                        <div class="collapsible-body"><span>Max is $90,000</span></div>
+                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Home Assistance</div>
+                        <div className="collapsible-body"><span>Max is $90,000</span></div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">add_circle_outline</i>Down Payment </div>
-                        <div class="collapsible-body"><span>Max is $90,000</span></div>
+                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Down Payment </div>
+                        <div className="collapsible-body"><span>Max is $90,000</span></div>
                     </li>
                 </ul>
 

@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div>
       <footer className=" footer-color">
-        <div className="row center-align">
+        <div className="center-align">
           <h4 className="white-text">Muckleshoot Housing Authority</h4>
         </div>
 

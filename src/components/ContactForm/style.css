@@ -4,5 +4,7 @@
     background: #B71C1C;
     color: white;
     border: 0;
+    display: block;
     margin: 0 auto;
+    margin-top: 7vh;
 }
