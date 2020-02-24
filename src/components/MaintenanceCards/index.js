@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./style.css";
 import Guy2 from "../../pictures/c8.jpeg"
 import Guy1 from "../../pictures/c7.jpeg"

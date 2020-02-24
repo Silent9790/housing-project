@@ -51,6 +51,7 @@ export default class RentalCards extends Component {
                         <div className="row">
                             <div className="card  white-text red darken-4">
                                 <div className="card-image">
+
                                     {/* <img className="grantsImg" src={house2} style = {{width: "40vw", height: "22vw" } /> */}
                                     
                                 </div>

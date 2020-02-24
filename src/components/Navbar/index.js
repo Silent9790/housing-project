@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../pictures/muckleshootlogo.png";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Route, Link } from "react-router-dom";
 
 import "./style.css";
 
@@ -21,7 +21,7 @@ function Navbar() {
           </div>
 
           <div className="col s6">
-            <ul className="right hide-on-med-and-down">
+            <ul className="right  hide-on-med-and-down">
               <li>
                 <Link to="/">Home</Link>
               </li>
@@ -55,7 +55,6 @@ function Navbar() {
             </ul>
           </div>
         </div>
-
       </nav>
     </div>
   );

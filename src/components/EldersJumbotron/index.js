@@ -10,10 +10,10 @@ function EldersJumbotron({ children }) {
     >
       {children}
       <div id="jumboBar">
+
       <img id="rentalImg" src={elderly} alt="Rental" style = {{width: "40vw", height: "22vw" }}/>
       <div className = "titleDiv">
         <h3 id="rentalTitle">MIT Elder Program</h3>
-        {/* <a href="https://drive.google.com/file/d/1DbFm-xqE074PASreCpoHtumR7b_QHGnw/view" target="_blank"><button id="applyNow">Apply Now</button></a> */}
       </div>
     </div>
     </div> 

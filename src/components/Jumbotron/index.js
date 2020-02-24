@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "../Carousel";
+// import Carousel from "../Carousel";
 import Mission from "../MissionStatementCard";
 import CardGrants from "../CardLinkGrants";
 import CardLending from "../CardLinkLending";
@@ -10,10 +10,11 @@ import CardContact from "../CardLinkContact";
 import Wrapper from '../Wrapper';
 import HomeHeader from "../HomeHeader";
 
-function Jumbotron({ children }) {
+function Jumbotron() {
   return (
     <div
       className="jumbotron main"
+      style={{backgroundColor:"white"}}
     >
       {/* <Carousel /> */}
       <HomeHeader/>

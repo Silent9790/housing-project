@@ -5,7 +5,7 @@ import GrantsCard4 from "../components/GrantsCard4";
 function Grants() {
 
   return (
-    <div>
+    <div className ="grants">
   <GrantsJumbotron />
   <GrantsCard4/>
     </div>
