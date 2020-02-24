@@ -1,0 +1,135 @@
+#jumboBar{
+    background-color: #4DB6AC;
+    height: 45vh;
+    border-top: tan solid 15px;
+    border-bottom: tan solid 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#rentalImg{
+    width: 660px;
+    height: 350px;
+    /* float: left; */
+    padding-left: 7vw;
+    padding-top: 4vh;
+}
+/* @media (max-width: 620px) {
+ 
+@media(max-width: 900px) {
+    
+} */
+@media(max-width: 1022px){
+    #rentalImg{
+        min-width: 360px;
+        min-height: 200px;
+        }
+    #jumboBar{
+        height: 450px;
+        justify-content: center;
+    }
+    .titleDiv{
+        width: 400px;
+        position: relative;
+        top: -40px
+    }
+    #rentalImg{
+        padding-left:0;
+    }
+}
+.titleDiv{
+    width: 600px;
+}
+
+#rentalTitle{
+    color: white;
+    font-weight: bold;
+    padding-top: 8vh;
+}
+
+#rentalHeadingText{
+    color: white;
+    text-align: center;
+}
+
+#applyNow{
+    color: white;
+    background-color: #B71C1C;
+    border: 0px;
+    height: 40px;
+    width: 100px;
+}
+
+#applyNow:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #EF5350;
+    color: black;
+    cursor: pointer;
+}
+#jumboBar{
+    background-color: #4DB6AC;
+    height: 45vh;
+    border-top: tan solid 15px;
+    border-bottom: tan solid 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#rentalImg{
+    width: 660px;
+    height: 350px;
+    /* float: left; */
+    padding-left: 7vw;
+    padding-top: 4vh;
+}
+
+@media(max-width: 900px) {
+    
+}
+@media(max-width: 1022px){
+    #rentalImg{
+        min-width: 360px;
+        min-height: 200px;
+        }
+    #jumboBar{
+        height: 450px;
+        justify-content: center;
+    }
+    .titleDiv{
+        width: 400px;
+        position: relative;
+        top: -40px
+    }
+    #rentalImg{
+        padding-left:0;
+    }
+}
+.titleDiv{
+    width: 600px;
+}
+
+#rentalTitle{
+    color: white;
+    font-weight: bold;
+    padding-top: 8vh;
+}
+
+#rentalHeadingText{
+    color: white;
+    text-align: center;
+}
+
+#applyNow{
+    color: white;
+    background-color: #B71C1C;
+    border: 0px;
+    height: 40px;
+    width: 100px;
+}
+
+#applyNow:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #EF5350;
+    color: black;
+    cursor: pointer;
+}

@@ -5,7 +5,7 @@ import "./style.css"
 
 class CardContact extends React.Component {
   render(){
-  return (
+  return(
         <Sticky>
           <Link to="/contact">
             <div

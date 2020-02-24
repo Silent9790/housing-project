@@ -1,16 +1,26 @@
 import React from "react";
 import "./style.css";
 import Guy from "../../pictures/placeholderman.jpg"
+import Guy1 from "../../pictures/c1.jpeg";
+import Guy2 from "../../pictures/c9.jpeg";
+import Guy3 from "../../pictures/c4.jpeg";
+import Guy5 from "../../pictures/c7.jpeg";
+import Guy6 from "../../pictures/c6.jpeg";
+import Guy7 from "../../pictures/c8.jpeg";
+
+
+
 
 function TeamCards() {
     return (
         <div className="container">
+            
             <h5 id="teamIntroText">Meet Our Team:</h5>
 
             <div className="row">
                 <div className="col s6 m6">
                     <div className="card horizontal">
-                        <img className="teamProfileImg circle" src={Guy} alt="profile" />
+                        <img className="teamProfileImg circle" src={Guy1} alt="profile" />
                         <div className="card-stacked">
                             <div className="card-content">
                                 <a href="https://www.google.com/">JOHN JACKSON</a>
@@ -22,10 +32,10 @@ function TeamCards() {
                         </div>
                     </div>
                 </div>
-
+                <div className="row">
                 <div className="col s6 m6">
                     <div className="card horizontal">
-                        <img className="teamProfileImg circle" src={Guy} alt="profile" />
+                        <img className="teamProfileImg circle" src={Guy2} alt="profile" />
                         <div className="card-stacked">
                             <div className="card-content">
                                 <a href="https://www.google.com/">JACK JOHNSON</a>
@@ -38,11 +48,12 @@ function TeamCards() {
                     </div>
                 </div>
             </div>
+            </div>
 
             <div className="row">
                 <div className="col s6 m6">
                     <div className="card horizontal">
-                        <img className="teamProfileImg circle" src={Guy} alt="profile" />
+                        <img className="teamProfileImg circle" src={Guy3} alt="profile" />
                         <div className="card-stacked">
                             <div className="card-content">
                                 <a href="https://www.google.com/">NICK SETO</a>
@@ -54,10 +65,10 @@ function TeamCards() {
                         </div>
                     </div>
                 </div>
-
+                <div className="row">
                 <div className="col s6 m6">
                     <div className="card horizontal">
-                        <img className="teamProfileImg circle" src={Guy} alt="profile" />
+                        <img className="teamProfileImg circle" src={Guy7} alt="profile" />
                         <div className="card-stacked">
                             <div className="card-content">
                                 <a href="https://www.google.com/">PHIL DUNHAM</a>
@@ -70,11 +81,11 @@ function TeamCards() {
                     </div>
                 </div>
             </div>
-
+</div>
             <div className="row">
                 <div className="col s6 m6">
                     <div className="card horizontal">
-                        <img className="teamProfileImg circle" src={Guy} alt="profile" />
+                        <img className="teamProfileImg circle" src={Guy5} alt="profile" />
                         <div className="card-stacked">
                             <div className="card-content">
                                 <a href="https://www.google.com/">AIDEN WILLET</a>
@@ -86,10 +97,10 @@ function TeamCards() {
                         </div>
                     </div>
                 </div>
-
+                <div className="row">
                 <div className="col s6 m6">
                     <div className="card horizontal">
-                        <img className="teamProfileImg circle" src={Guy} alt="profile" />
+                        <img className="teamProfileImg circle" src={Guy6} alt="profile" />
                         <div className="card-stacked">
                             <div className="card-content">
                                 <a href="https://www.google.com/">TASI PEDRO</a>
@@ -102,7 +113,7 @@ function TeamCards() {
                     </div>
                 </div>
             </div>
-
+</div> 
         </div>
     );
 }

@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import rentalImg from "../../pictures/woman.jpg";
 
+
 function RentalJumbotron({ children }) {
   return (
     <div style={{ height: 575, clear: "both", paddingTop: 100, paddingBottom: 100, textAlign: "center", backgroundColor: "white"  }}
