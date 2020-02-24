@@ -13,7 +13,7 @@ class CardContact extends React.Component {
               className="white-text"
             
             >
-              <div className="card  teal lighten-2">
+              <div className="card horizontal teal lighten-2">
                 <div className="card-stacked">
                   <div className="contact-content center-align">
                     <h5>Need to get in touch?</h5>
