@@ -2,8 +2,7 @@ import React from "react";
 import LendingJumbotron from "../components/LendingJumbotron";
 import LendingAbout from "../components/LendingCardAbout";
 import LendingPageHandler from "../components/LendingPageHandler";
-import CardContact from "../components/CardContact";
-import LendingCards from "../components/LendingCards";
+
 
 
 function Loans() {
@@ -16,18 +15,8 @@ function Loans() {
         </div>
         <LendingPageHandler />
       </div>
-
-      <div>
-        <CardContact />
-      </div>
-      <div className="col s8">
-        <LendingCards />
-      </div>
     </div>
   );
 }
 
 export default Loans;
-
-//Below is the link for PDF file on its own  on GoogleDrive
-// https://drive.google.com/open?id=1PmvEXVUEYmEKdxZVwSyS3Jf9b27xxXrC
