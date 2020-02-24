@@ -5,18 +5,20 @@ import {
   Switch,
   Redirect
 } from "react-router-dom";
-import Contact from "../pages/Contact";
-import Elders from "../pages/Elders";
-import Grants from "../pages/Grants";
-import Maintenance from "../pages/Maintenance";
-import Home from "../pages/Home";
-import Lending from "../pages/Loans";
-import NoMatch from "../pages/NoMatch";
-import Rentals from "../pages/Rental";
-import Team from "../pages/Team";
-import Login from "../pages/Login";
-import Navbar from "./Navbar/index";
-import Footer from "./Footer/index";
+import Contact from "../../pages/Contact";
+import Elders from "../../pages/Elders";
+import Grants from "../../pages/Grants";
+import Maintenance from "../../pages/Maintenance";
+import Home from "../../pages/Home";
+import Lending from "../../pages/Loans";
+import NoMatch from "../../pages/NoMatch";
+import Rentals from "../../pages/Rental";
+import Team from "../../pages/Team";
+import Login from "../../pages/Login";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
+
+import "./style.css"
 
 class PagesContainer extends Component {
   state = {
@@ -29,7 +31,7 @@ class PagesContainer extends Component {
 
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid page-content">
         <Router>
           <Navbar />
           <Switch>
