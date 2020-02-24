@@ -16,6 +16,7 @@ import Rentals from "../../pages/Rental";
 import Team from "../../pages/Team";
 import Login from "../../pages/Login";
 import CreateAccount from "../../pages/CreateAccount";
+import LoginSuccess from "../../pages/LoginSuccess";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 
@@ -46,6 +47,7 @@ class PagesContainer extends Component {
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/createaccount" component={CreateAccount} />
+            <Route exact path="/loginsuccess" component={LoginSuccess} />
             <Route exact path="/nomatch" component={NoMatch} />
 
             <Route path="*">

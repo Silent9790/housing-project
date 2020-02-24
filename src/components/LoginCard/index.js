@@ -18,21 +18,18 @@ function LoginCard() {
     }
     const handleFormSubmit = event => {
         event.preventDefault();
-        console.log(userAccount);
         API.getAccountByID(userAccount.userID).then(res => {
-            console.log(res.data)
             setUserAccount({
                 userID: '',
                 password: ''
             })
             if(res.data===null){
-                console.log("invalid user credentials")
+                alert("Invalid user credentials")
             } else if(res.data.password===userAccount.password){
-                console.log("login successful");
+                history.push("/loginsuccess")
             } else{
-                console.log("incorrect login");
+                alert("Incorrect password");
             }
-            // history.push("/")
 
         }).catch(err => {
             console.log(err);

@@ -31,7 +31,7 @@ function CreateAccountCard() {
                 email: '',
                 password: ''
             })
-            history.push("/")
+            history.push("/login")
 
         }).catch(err => {
             console.log(err);
