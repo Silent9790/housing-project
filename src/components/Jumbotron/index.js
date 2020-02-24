@@ -10,10 +10,11 @@ import CardContact from "../CardLinkContact";
 import Wrapper from '../Wrapper';
 import HomeHeader from "../HomeHeader";
 
-function Jumbotron({ children }) {
+function Jumbotron() {
   return (
     <div
       className="jumbotron main"
+      style={{backgroundColor:"white"}}
     >
       {/* <Carousel /> */}
       <HomeHeader/>

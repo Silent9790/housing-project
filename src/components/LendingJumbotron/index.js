@@ -6,6 +6,7 @@ function LendingJumbotron() {
   return (
     <div style={{ height: 575, clear: "both", paddingTop: 100, paddingBottom: 100, textAlign: "center"  }}
     className="jumbotron"
+    style={{backgroundColor:"white"}}
   >
 
     <div id="jumboBar">

@@ -1,51 +1,64 @@
-import React from "react"
-function Navbar_Bootstrap(){
-    return(
-        <nav class="navbar navbar-expand-lg navbar-dark primary-color">
-        
-          <a class="navbar-brand" href="#">Navbar</a>
-        
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="basicExampleNav">
-        
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-        
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-        
-            </ul>
-        
-            <form class="form-inline">
-              <div class="md-form my-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"/>
-              </div>
-            </form>
-          </div>
-        
-        </nav>
+import React from "react";
+import Logo from "../../pictures/muckleshootlogo.png";
+import { BrowserRouter as Route, Link } from "react-router-dom";
 
-    )
+
+function Navbar_Bootstrap() {
+  return (
+    <nav className="navbar navbar-expand-lg navbar-dark red darken-4">
+      <img
+        className="navbar-brand header-logo"
+        src={Logo}
+        alt="Muckleshoot Logo"
+      ></img>
+
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#basicExampleNav"
+        aria-controls="basicExampleNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+
+      <div className="collapse navbar-collapse" id="basicExampleNav">
+        <ul className="floar-right navbar-nav mr-auto">
+        <li className="nav-item">
+                <Link to="/">Home</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="/grants">Grants</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="/lending">Lending</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="/rentals">Rentals</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="/elders">Elders</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="/team">Team</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/maintenance">Maintenance</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="/login">Login</Link>
+              </li>
+        </ul>
+      </div>
+    </nav>
+  );
 }
 export default Navbar_Bootstrap;

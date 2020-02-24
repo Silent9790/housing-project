@@ -36,7 +36,7 @@ class PagesContainer extends Component {
       <div className="container-fluid page-content">
         <Router>
           <Navbar />
-          {/* <Navbar_Bootstrap /> */}
+          <Navbar_Bootstrap />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/grants" component={Grants} />
