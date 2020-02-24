@@ -1,12 +1,6 @@
 import React, { Component } from "react";
 import M from "materialize-css";
-// import "./style.css";
-// import Leg1 from "../../pictures/leg3.jpeg";
-import house1 from "../../pictures/b4.jpeg";
-import house2 from "../../pictures/b3.jpeg";
-import house3 from "../../pictures/b1.jpeg";
-import house4 from "../../pictures/b2.jpeg";
-// import ElderCard from "../ElderCard";
+import "./style.css";
 
 import HousingProgram from "../../pictures/HousingProgram.png";
 import InsuranceAssistance from "../../pictures/InsuranceAssistance.png";

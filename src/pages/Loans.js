@@ -1,7 +1,9 @@
 import React from "react";
 import LendingJumbotron from "../components/LendingJumbotron";
 import LendingAbout from "../components/LendingCardAbout";
-import LendingPageHandler from "../components/LendingPageHandler"
+import LendingPageHandler from "../components/LendingPageHandler";
+import CardContact from "../components/CardContact";
+import LendingCards from "../components/LendingCards";
 
 
 function Loans() {
