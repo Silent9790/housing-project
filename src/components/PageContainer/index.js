@@ -17,7 +17,6 @@ import Team from "../../pages/Team";
 import Login from "../../pages/Login";
 import CreateAccount from "../../pages/CreateAccount";
 import Navbar from "../Navbar";
-import Navbar_Bootstrap from "../Navbar-bootystrap"
 import Footer from "../Footer";
 
 import "./style.css"
@@ -36,7 +35,6 @@ class PagesContainer extends Component {
       <div className="container-fluid page-content">
         <Router>
           <Navbar />
-          <Navbar_Bootstrap />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/grants" component={Grants} />
