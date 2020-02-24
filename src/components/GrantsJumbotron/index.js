@@ -1,28 +1,24 @@
+import house3 from "../../pictures/a10.jpeg";
 import React from "react";
-// import "./style.css";
-import grantsImg from "../../pictures/sheep.jpg";
-// import lego3 from "../../pictures/lego4.jpeg";
-import house3 from "../../pictures/b2.jpeg";
+import "./style.css";
+import rentalImg from "../../pictures/woman.jpg";
 
 
-function GrantsJumbotron ({ children }) {
+function RentalJumbotron({ children }) {
   return (
-    <div style={{ height: 575, clear: "both", paddingTop: 100, paddingBottom: 100, textAlign: "center", backgroundColor: "white "  }}
+    <div style={{ height: 575, clear: "both", paddingTop: 100, paddingBottom: 100, textAlign: "center", backgroundColor: "white"  }}
       className="jumbotron"
     >
       {children}
-      
       <div id="jumboBar">
-        <img id="rentalImg" src={house3} alt="Rental Image" />
-        <h3 id="rentalTitle">Grants Program</h3>
-        {/* <p id="rentalHeadingText">Visit one of our 302 rental properties within or near the reservation.</p> */}
-        <p className = "center text-white">
-       You get a grant.. you all get a grant. Just Kidding. Only enrolled members get a grant.
-         </p>
-        <a href="https://drive.google.com/file/d/1DbFm-xqE074PASreCpoHtumR7b_QHGnw/view" target="_blank"><button id="applyNow">Apply Now</button></a>
+        <img id="rentalImg" src={house3} alt="Rental" style = {{width: "40vw", height: "22vw" }}/>
+        <div className = "titleDiv">
+          <h3 id="rentalTitle">Grant Programs</h3>
+          <a href="https://drive.google.com/drive/u/0/folders/1xOQpGQW1R9FhgfPwztx7ehPvlwi8Mh6H"  rel="noopener noreferrer" target="_blank"><button id="applyNow">Apply Now</button></a>
+        </div>
       </div>
     </div>
   );
 }
 
-export default GrantsJumbotron;
+export default RentalJumbotron;

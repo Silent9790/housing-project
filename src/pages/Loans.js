@@ -28,8 +28,7 @@ function Loans() {
             <LoanCalculator />
 
             </div>
-           
-
+        
             <div>
               <CardContact />
             </div>
