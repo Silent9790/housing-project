@@ -1,15 +1,9 @@
 import React from "react";
-import "./style.css"
+import "./style.css";
 
 function LendingAbout() {
   return (
     <div className="col s12">
-      <div className="row">
-          <div className="lending-strip">
-              
-          </div>
-      </div>
-
       <div className="row">
         <div className="card red darken-4">
           <div className="card-content white-text">

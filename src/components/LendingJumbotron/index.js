@@ -13,7 +13,7 @@ function LendingJumbotron() {
       <div className = "titleDiv">
 
       <h3 id="rentalTitle">Lending Program</h3>
-      <p id="rentalHeadingText">Here are the programs we offer:</p>
+      <p id="rentalHeadingText">Here are the programs we offer.</p>
       </div>
 
     </div>

@@ -1,4 +1,28 @@
 .lending-box{
     background: rgb(241, 241, 241);
-    height: 1580px;
+    height: 1620px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3vw;
+}
+.lending-card-pdf{
+    width: 20vw;
+}
+.Lending-cards{
+    width: 80%;
+}
+@media (max-width: 1000px) {
+    .lending-box{
+        height: 1370px;
+    }
+    .lending-card-pdf{
+        width: 200px;
+    }
+}
+
+@media (max-width: 824px) {
+    .lending-box{
+        width: 80vw;
+    }
 }

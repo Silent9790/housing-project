@@ -1,9 +1,8 @@
 import React from "react";
-import LendingCards from "../components/LendingCards";
 import LendingJumbotron from "../components/LendingJumbotron";
-import LoanCalculator from "../components/LoanCalculator";
 import LendingAbout from "../components/LendingCardAbout";
-import CardContact from "../components/CardContact";
+import LendingPageHandler from "../components/LendingPageHandler"
+
 
 function Loans() {
   return (
@@ -13,27 +12,9 @@ function Loans() {
         <div className="row">
           <LendingAbout />
         </div>
-        <div className="row">
-          <div className="col s4">
-            <div>
-              <p style={{ fontSize: "25px", fontweight: "bold" }}>
-                Curious about your loan?
-              </p>
-              <p>Try our loan calculator tool:</p>
-            </div>
 
-            <div>
-              <LoanCalculator />
-            </div>
+        <LendingPageHandler/>
 
-            <div>
-              <CardContact />
-            </div>
-          </div>
-          <div className="col s8">
-            <LendingCards />
-          </div>
-        </div>
       </div>
     </div>
   );
