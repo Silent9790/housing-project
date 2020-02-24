@@ -1,6 +1,6 @@
 import React from "react";
-import HousingProgram from "../../pictures/HousingProgram.png";
-import InsuranceAssistance from "../../pictures/InsuranceAssistance.png";
+// import HousingProgram from "../../pictures/HousingProgram.png";
+// import InsuranceAssistance from "../../pictures/InsuranceAssistance.png";
 import elderly from "../../pictures/elders.jpg";
 
 function EldersJumbotron({ children }) {
@@ -10,7 +10,7 @@ function EldersJumbotron({ children }) {
     >
       {children}
       <div id="jumboBar">
-        <img id="rentalImg" src={elderly} alt="Rental Image" />
+        <img id="rentalImg" src={elderly} alt="Rental" />
         <h3 id="rentalTitle">MIT Elder Program</h3>
         {/* <p id="rentalHeadingText">Visit one of our 302 rental properties within or near the reservation.</p> */}
         <p className = "center text-white">

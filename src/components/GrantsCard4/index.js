@@ -111,7 +111,7 @@ export default class RentalCards extends Component {
                         <div className="row">
                             <div className="card red darken-4">
                                 <div className="card-image">
-                                    <img className="grantsImg" src={house1} />
+                                    <img className="grantsImg" src={house1} alt="grants"/>
                                 </div>
                                 <span className="card-title">Down Payment Assistance</span>
                                 <div className="card-content white-text">

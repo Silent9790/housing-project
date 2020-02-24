@@ -1,7 +1,6 @@
 import React from "react";
 import EldersJumbotron from "../components/EldersJumbotron";
 import EldersCards from "../components/EldersCards";
-import EldersLinkCard from "../components/EldersLinkCard";
 // import EldersLinkCard from "../components/EldersLinkCard";
 
 

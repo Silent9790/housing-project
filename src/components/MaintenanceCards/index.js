@@ -1,6 +1,6 @@
 import React from "react";
 // import "./style.css";s
-import Woman from "../../pictures/maintenance1.jpeg"
+// import Woman from "../../pictures/maintenance1.jpeg"
 import One from "../../pictures/emergency1.jpeg"
 import Two from "../../pictures/emergency2.jpeg"
 import Three from "../../pictures/emergency3.jpeg"
