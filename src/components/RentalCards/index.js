@@ -144,11 +144,11 @@ export default class RentalCards extends Component {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <div className="card">
             <AddressCheck />
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }
