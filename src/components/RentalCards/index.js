@@ -6,8 +6,6 @@ import Town2 from "../../pictures/town2.jpg";
 import Town3 from "../../pictures/town3.jpg";
 import AddressCheck from "../AddressCheck"
 
-
-
 export default class RentalCards extends Component {
     componentDidMount() {
         document.addEventListener('DOMContentLoaded', function () {
@@ -58,7 +56,7 @@ export default class RentalCards extends Component {
 
                 <h5>Our Locations:</h5>
                 <div className="row locationCards">
-                    <div className="col s4 m4">
+                    <div className="col s3 m4">
                         <div className="card">
                             <div className="card-image">
                                 <img src={Town1} alt="Town" />
@@ -73,7 +71,7 @@ export default class RentalCards extends Component {
                         </div>
                     </div>
 
-                    <div className="col s4 m4">
+                    <div className="col s3 m4">
                         <div className="card">
                             <div className="card-image">
                                 <img src={Town2} alt="Town" />
@@ -88,7 +86,7 @@ export default class RentalCards extends Component {
                         </div>
                     </div>
 
-                    <div className="col s4 m4">
+                    <div className="col s3 s3">
                         <div className="card">
                             <div className="card-image">
                                 <img src={Town3} alt="Town" />

@@ -12,6 +12,7 @@ function MissionCard() {
   );
 }
 
+
 export default MissionCard;
 
 

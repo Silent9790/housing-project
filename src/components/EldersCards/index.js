@@ -43,7 +43,7 @@ export default class RentalCards extends Component {
                 <br />
                 <div className="container">
                   <div className="row">
-                    <div className="col s4">
+                    <div className="col s3">
                       <a
                         href="https://drive.google.com/file/d/1YoOlWrg4INe04Y6XrcvsWHaBlMV4cwiJ/view?usp=sharing"
                         rel="noopener noreferrer"
@@ -52,13 +52,13 @@ export default class RentalCards extends Component {
                         <img
                           src={HousingProgram}
                           alt="pdf"
-                          style={{ height: "300px" }}
+                          style={{ height: "300px", width: "300px"}}
                         />
                       </a>
                     </div>
                     <div className="col s3"></div>
 
-                    <div className="col s4">
+                    <div className="col s3">
                       <a
                         href="https://drive.google.com/file/d/1-K8tX2fT0cxdFIvLieAlAYp_gWJDthVg/view?usp=sharing"
                         rel="noopener noreferrer"

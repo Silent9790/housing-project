@@ -25,35 +25,19 @@ export default class RentalCards extends Component {
                                 <p>ELIGIBILITY: Open to tribal members whose income is currently at or below King County median income. A hair sample drug test must be taken and passed in order to qualify.</p>
                             </div>
                             <div className="card-action">
-                                <a href="https://drive.google.com/file/d/1KCCTyYqQdzCqjmdpA4R9yy6CaeqyDyZk/view?usp=sharing"  rel="noopener noreferrer" target="_blank">Application PDF</a>
+                                <a href="https://drive.google.com/file/d/1KCCTyYqQdzCqjmdpA4R9yy6CaeqyDyZk/view?usp=sharing" rel="noopener noreferrer" target="_blank">Application PDF</a>
                             </div>
-                            {/* <h5>Grant Program Features & Benefits:</h5>
-                <ul className="collapsible">
-                    <li>
-                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Home Repair </div>
-                        <div className="collapsible-body"><span>Max is $90,0000</span></div>
-                    </li>
-                    <li>
-                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Home Assistance</div>
-                        <div className="collapsible-body"><span>Max is $90,000</span></div>
-                    </li>
-                    <li>
-                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Down Payment </div>
-                        <div className="collapsible-body"><span>Max is $90,000</span></div>
-                    </li>
-                </ul> */}
-
                         </div>
-                    </div> 
-                    <br/>
-                {/* <div className="container"> */}
+                    </div>
+                    <br />
+                    {/* <div className="container"> */}
                     <div className="col s6 m6">
                         <div className="row">
                             <div className="card  white-text red darken-4">
                                 <div className="card-image">
 
                                     {/* <img className="grantsImg" src={house2} style = {{width: "40vw", height: "22vw" } /> */}
-                                    
+
                                 </div>
                                 <span className="card-title">Down Payment Assistance</span>
                                 <div className="card-content white-text">
@@ -66,7 +50,7 @@ export default class RentalCards extends Component {
                                 </div>
                                 {/* </div> */}
                             </div>
-                             {/* <GrantsCardContact />  */}
+                            {/* <GrantsCardContact />  */}
                         </div>
                     </div>
                 </div>
