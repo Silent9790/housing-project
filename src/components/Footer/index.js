@@ -42,7 +42,7 @@ function Footer() {
               <div className="col s6">
                 <a
                   className="footer-white-link"
-                  href="#http://www.muckleshoot.nsn.us/community/news.aspx"
+                  href="http://www.muckleshoot.nsn.us/community/news.aspx"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
