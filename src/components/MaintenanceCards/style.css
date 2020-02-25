@@ -15,3 +15,22 @@
 .cardTitle {
     text-align: center;
 }
+.maintence-cards-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.maintence-card{
+    width: 17vw;
+}
+
+@media (max-width: 1150px) {
+    .maintence-card{
+        width: 180px;
+    }
+}
