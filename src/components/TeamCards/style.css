@@ -16,6 +16,16 @@
     justify-content: space-around;
     align-content: flex-start;
     overflow: auto;
-    width: 60vw;
+    width: 80vw;
     margin: 0 auto;
 }
+.team-card{
+    width: 35vw;
+
+}
+@media (max-width: 1434px) {
+    .team-card{
+        width: 345px;
+    }
+ }
+ 
