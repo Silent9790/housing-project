@@ -10,3 +10,12 @@
     font-weight: bold;
     padding-bottom: 5vh;
 }
+.team-cards-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+    width: 60vw;
+    margin: 0 auto;
+}

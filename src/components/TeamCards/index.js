@@ -1,26 +1,21 @@
 import React from "react";
 import "./style.css";
-import Guy from "../../pictures/placeholderman.jpg"
 import Town1 from "../../pictures/c1.jpeg";
 import Town2 from "../../pictures/c9-copy.jpg";
 import Town3 from "../../pictures/c4-copy.jpeg";
-import Guy5 from "../../pictures/c7.jpeg";
-import Guy6 from "../../pictures/c6.jpeg";
-import Guy7 from "../../pictures/c8.jpeg";
-
 
 
 
 function TeamCards() {
     return (
         <div className="container">
-            <div className="row locationCards">
+            <div className="row team-cards-wrapper">
                 {/* <div className="row">
                     <div className="card red darken-4">
                         <span className="card-title"> The Team: </span> */}
 
                         <div className="col s4 m4">
-                            <div className="card">
+                            <div className="card team-card">
                                 <div className="card-image">
                                     <img src={Town1} alt="Town" />
                                 </div>
