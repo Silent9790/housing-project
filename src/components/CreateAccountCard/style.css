@@ -13,9 +13,8 @@
 .createAccountButton{
     width: 120px;
     height: 40px;
-    margin-right: 5vw;
-    margin-top: 3vh;
     border: 0px;
+    background: white;
 }
 
 .createAccountButton:hover{
@@ -36,4 +35,10 @@
 
 #createAccountBumper{
     height: 10vh
+}
+.create-spacing{
+    margin-left: 10vw;
+}
+.create-button{
+    margin-top: 5vh;
 }

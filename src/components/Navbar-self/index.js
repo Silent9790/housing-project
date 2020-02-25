@@ -1,8 +1,10 @@
 import React from "react";
 import "./style.css";
+import Logo from "../../pictures/muckleshootlogo.png";
+import burger from "../../pictures/burger.png"
+import { BrowserRouter as Route, Link } from "react-router-dom";
 
 function Navbarself() {
-
   function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
@@ -20,17 +22,63 @@ function Navbarself() {
       />
 
       <div className="topnav">
-        <div className="navbar-small red darken-4">
-          Logo
+        <div className="navbar-2 red darken-4">
+          <div className="row">
+            <div className="col s2">
+              <img
+                className="header-logo"
+                src={Logo}
+                alt="Muckleshoot Logo"
+              ></img>
+            </div>
+            <div className="col">
+              <h5 className="navbar-white">Muckleshoot Housing Authority</h5>
+            </div>
+            <div>
+              <button className="right burger-button" onClick={myFunction}>
+              <img
+                className="burger"
+                src={burger}
+                alt="hamburger"
+              ></img>
+              </button>
+            </div>
+          </div>
         </div>
         <div id="myLinks">
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
+          <ul className="">
+            <li>
+              <Link to="/" onClick={myFunction}>Home </Link>
+            </li>
+
+            <li>
+              <Link to="/grants" onClick={myFunction}>Grants</Link>
+            </li>
+
+            <li>
+              <Link to="/lending" onClick={myFunction}>Lending</Link>
+            </li>
+
+            <li>
+              <Link to="/rentals" onClick={myFunction}>Rentals</Link>
+            </li>
+
+            <li>
+              <Link to="/elders" onClick={myFunction}>Elders</Link>
+            </li>
+
+            <li>
+              <Link to="/team" onClick={myFunction}>Team</Link>
+            </li>
+            <li>
+              <Link to="/maintenance" onClick={myFunction}>Maintenance</Link>
+            </li>
+
+            <li>
+              <Link to="/login">Login</Link>
+            </li>
+          </ul>
         </div>
-        <a href="javascript:void(0);" className="icon" onClick={myFunction}>
-          <i className="fa fa-bars"></i>
-        </a>
       </div>
     </div>
   );

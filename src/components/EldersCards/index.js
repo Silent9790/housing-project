@@ -89,36 +89,14 @@ export default class RentalCards extends Component {
         <br />
 
         <h5>Elders Program Features: </h5>
-        <ul className="collapsible">
-          <li>
-            <div className="collapsible-header">
-              <i className="material-icons">add_circle_outline</i>Home Repair{" "}
-            </div>
-            <div className="collapsible-body">
-              <span>Max is $90,0000</span>
-            </div>
-          </li>
-          <li>
-            <div className="collapsible-header">
-              <i className="material-icons">add_circle_outline</i>Home Assistance
-            </div>
-            <div className="collapsible-body">
-              <span>Max is $90,000</span>
-            </div>
-          </li>
-          <li>
-            <div className="collapsible-header">
-              <i className="material-icons">add_circle_outline</i>New House
-              Construction
-            </div>
-            <div className="collapsible-body">
-              <span>Max is $90,000</span>
-            </div>
-          </li>
+        <ul className="collection">
+          <li className="collection-item">Home Repair: Max is $90,000</li>
+          <li className="collection-item">Home Assistance: Max is $90,000</li>
+          <li className="collection-item">New House Construction: Max is $90,000</li>
         </ul>
         <br />
         <br />
-{/* 
+        {/* 
         <br />
         <br />
 
@@ -177,8 +155,7 @@ export default class RentalCards extends Component {
         </div>
         <br />
          */}
-</div> 
-
+      </div>
     );
   }
 }
