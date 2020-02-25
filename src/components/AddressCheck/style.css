@@ -1,0 +1,11 @@
+.address-check{
+    width: 80%;
+    margin: 0 auto;
+}
+.AddressButton{
+    color: white;
+    background-color: #B71C1C;
+    border: 0px;
+    height: 40px;
+    width: 100px;
+}
