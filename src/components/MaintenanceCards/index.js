@@ -22,7 +22,7 @@ export default class MaintenanceCards extends Component {
                 <div className="row">
                     <div className="card red darken-4">
                         <div className="card-content white-text">
-                            <span className="card-title">Maintenance Department</span>
+                            <span className="card-title" style={{ fontWeight: "bold" }}>Maintenance Department</span>
                             <p>The Maintenance Department services the rental homes, apartments and Muckleshoot properties.  </p><br />
                         </div>
                         <div className="card-action">
@@ -33,71 +33,57 @@ export default class MaintenanceCards extends Component {
             </div>
 
             <h5>About the Maintenance Department</h5>
-            <ul className="collapsible">
-                <li>
-                    <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Broke something?</div>
-                    <div className="collapsible-body"><span>We'll fix it.</span></div>
+            <ul className="collection">
+                <li className="collection-item">
+                    Broke something? We'll fix it.
                 </li>
-                <li>
-                    <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Natural Disaster?</div>
-                    <div className="collapsible-body"><span>We're on it.</span></div>
+                <li className="collection-item">
+                    Natural Disaster? We're on it.
                 </li>
             </ul>
 
-
-
             <h5>Our Team</h5>
-            <div className="row locationCards">
-                <div className="col s4 m4">
-                    <div className="card">
+            <div className="center-align maintence-cards-wrapper">
+
+                    <div className="card maintence-card" style={{margin:"2px",marginTop:"20px"}}>
                         <div className="card-image">
                             <img src={Town1} alt="Town" />
-                            {/* <span className="card-title">Rental Division</span> */}
                         </div>
                         <div className="card-content">
                             <p>Assisting the rental properties with all their needs.</p><br/>
                         </div>
                         <div className="card-action">
-                            <a href="http://localhost:3000/contact"  rel="noopener noreferrer" target="_blank">Contact us</a>
+                            <a href="http://localhost:3000/contact"  rel="noopener noreferrer" target="_blank" style={{margin: "0 auto"}}>Contact us</a>
                         </div>
                     </div>
-                </div>
 
-                <div className="col s4 m4">
-                    <div className="card">
+                    <div className="card maintence-card" style={{margin:"2px", marginTop:"20px"}}>
                         <div className="card-image">
                             <img src={Town2} alt="Town" />
-                            {/* <span className="card-title">Landscape</span> */}
                         </div>
                         <div className="card-content">
                             <p>Neighborhood need a touch up? Call us!</p><br/>
                         </div>
                         <div className="card-action">
-                        <a href="http://localhost:3000/contact"  rel="noopener noreferrer" target="_blank">Reach out</a>
+                        <a href="http://localhost:3000/contact"  rel="noopener noreferrer" target="_blank" style={{margin: "0 auto"}}>Reach out</a>
                         </div>
                     </div>
-                </div>
 
-                <div className="col s4 m4">
-                    <div className="card">
+                    <div className="card maintence-card" style={{margin:"2px", marginTop:"20px"}}>
                         <div className="card-image">
                             <img src={Town3} alt="Town" />
-                            {/* <span className="card-title">Home Repair</span> */}
                         </div>
                         <div className="card-content">
-                            <p>Broken door? We can fix it.</p>
+                            <p>Broken door? We can fix it.</p><br/>
                         </div>
                         <div className="card-action">
-                        <a href="http://localhost:3000/contact"  rel="noopener noreferrer" target="_blank">We're here to help</a>
+                        <a href="http://localhost:3000/contact"  rel="noopener noreferrer" target="_blank" style={{margin: "0 auto"}}
+                        className="center-align">We're here to help</a>
                         </div>
                     </div>
-                </div>
+
             </div>
-            <div className="col s6 m6">
-                <div className="card rentalCard">
-                    {/* <AddressCheck/> */}
-                </div>
-            </div>
+           
         </div>
         )
     }
