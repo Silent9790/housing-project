@@ -75,7 +75,7 @@ function Navbarself() {
             </li>
 
             <li>
-              <Link to="/login">Login</Link>
+              <Link to="/login" onClick={myFunction}>Login</Link>
             </li>
           </ul>
         </div>
