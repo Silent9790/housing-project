@@ -1,0 +1,17 @@
+.homepage-cards{
+    font-size: 4vh;
+    color: black;
+}
+.cardlink{
+    width: 20vw;
+}
+
+.whitespace{
+    margin-bottom: 3vh;
+}
+
+@media (max-width: 600px) {
+    .cardlink{
+        width: 130px;
+    }
+}

@@ -1,24 +1,11 @@
-import React from 'react';
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import React from "react";
 
-// import API from "../utils/API";
-// importing pages
-
-import Home from "./pages/Home";
-// import NoMatch from "./pages/NoMatch";
-import {
-  BrowswerRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import PagesContainer from "./components/PageContainer";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <Footer />
+    <div>
+      <PagesContainer />
     </div>
   );
 }

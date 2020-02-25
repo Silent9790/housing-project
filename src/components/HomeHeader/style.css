@@ -1,0 +1,36 @@
+/* .home-line{
+    height: 5px;
+    width: 65%;
+    background: rgb(183, 28, 28);
+    margin: 0 auto;
+    z-index: -2;
+}*/
+.italics{
+    font-style: italic;
+    color: grey;
+} 
+.home-div{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.home-logo{
+    width: 80%;
+}
+@media (max-width: 620px) {
+    .home-logo{
+        width: 100%;
+    }
+}
+/* .fish1{
+    position: absolute;
+    left: 3vw;
+    top: 50vh;
+    width: 20%;
+}
+.fish2{
+    position: absolute;
+    right: 3vw;
+    transform: scaleX(-1);
+    top: 50vh;
+    width: 20%;
+} */

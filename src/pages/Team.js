@@ -1,25 +1,13 @@
-import Navbar from "../components/Navbar";
+import React from "react";
+import TeamJumbotron from "../components/TeamJumbotron";
+import TeamCards from "../components/TeamCards";
 
 function Team() {
-
-    return (
-        <div className="container">
-            <h1>Team</h1>
-        </div >
-    );
+  return (
+    <div>
+      <TeamJumbotron />
+      <TeamCards />
+    </div>
+  );
 }
-
-
-    export default Team;
-
-
-//     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-//     <a className="navbar-brand" href="/">
-//       Your personal CMS
-//     </a>
-//     {/* Display this if the current state is loading */}
-//     {/* <a className="navbar-brand ml-auto">
-//         Loading...
-//       </a> */}
-//   </nav>
-// );
+export default Team;

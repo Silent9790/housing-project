@@ -1,14 +1,14 @@
-import Navbar from "../components/Navbar";
+import React from "react";
+import RentalJumbotron from "../components/RentalJumbotron";
+import RentalCards from "../components/RentalCards";
 
-function Rental() {
+function Rentals() {
+  return (
+    <div>
+      <RentalJumbotron />
+      <RentalCards />
+    </div>
+  );
+}
 
-       
-    return (
-        <div className="container">
-            <h1>Rental</h1>
-       </div >
-
-    );
-    }
-
-export default Rental;
+export default Rentals;

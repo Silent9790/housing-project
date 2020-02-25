@@ -1,49 +1,152 @@
 import React from "react";
-// import {Link} from "reacet-router-dom";
+import Logo from "../../pictures/muckleshootlogo.png";
+import { BrowserRouter as Route, Link } from "react-router-dom";
+import "./style.css";
 
-function Footer({ children }) {
-    return (
+function Footer() {
+  return (
+    <div>
+      <footer className=" footer-color">
+        <div className="center-align">
+          <h4 className="white-text">Muckleshoot Housing Authority</h4>
+        </div>
 
-        <div className="page-footer  brown lighten-3">
-            {/* I think that the width or the flexing of the nav bar would be fixed here  */}
-            {/* <div className="container">
-                <div className="row"> */}
-                  <footer class="page-footer brown lighten-3"></footer>
-            <div className="col l6 s12">
-                <h5 className="white-text">NAIT Housing </h5>
-                <p className="grey-text text-lighten-4"> </p>
+        <div className="row">
+          <div className="col s4 center-align">
+            <h5 className="footer-white-text-main">Links </h5>
+
+            <div className="row">
+              <div className="col s6">
+                <a
+                  className="footer-white-link"
+                  href="https://www.muckleshootcasino.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Casino
+                </a>
+              </div>
+              <div className="col s6">
+                <a
+                  className="footer-white-link"
+                  href="https://www.muckleshootbingo.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Bingo
+                </a>
+              </div>
             </div>
-            <div className="col l4 offset-l2 s12 ">
-                <h5 className="white-text ">Links</h5>
-                <ul className = "brown-text text-lighten-2" > 
-                    <div className ="col "></div>
-                    <li ><a href="https://www.muckleshootcasino.com/">Casino</a></li>
-                    <li><a href="https://www.muckleshootbingo.com/">Bingo</a></li>
-                    <li><a href="#http://www.muckleshoot.nsn.us/community/news.aspx">Health/Wellness</a></li>
-                    <li><a href="http://whiteriveramphitheater.org/">White River Ampitheatre</a></li>
-                    <li><a href="https://jointrivers.com/">Joint Rivers</a></li>
-                    <li><a href="http://www.muckleshoot.nsn.us/default.aspx">Native Indian Tribe Government</a></li>
-                    <li><a href="http://www.muckleshoottribalschool.org/">Tribal School</a></li>
-                    <li><a href="https://www.nwic.edu/nwic-sites/muckleshoot-campus/">Tribal College</a></li>
-                </ul>
-            {/* </div>
-        </div> */}
-        <div className="footer-copyright">
-            <div className="container">
-                © 2020 Copyright Text
-             <a className="grey-text text-lighten-4 right" href="#!">Contact Link</a>
+
+            <div className="row">
+              <div className="col s6">
+                <a
+                  className="footer-white-link"
+                  href="#http://www.muckleshoot.nsn.us/community/news.aspx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Health / Wellness
+                </a>
+              </div>
+              <div className="col s6">
+                <a
+                  className="footer-white-link"
+                  href="http://whiteriveramphitheater.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  White River Ampitheatre
+                </a>
+              </div>
             </div>
+
+            <div className="row">
+              <div className="col s6">
+                <a
+                  className="footer-white-link"
+                  href="https://jointrivers.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Joint Rivers
+                </a>
+              </div>
+              <div className="col s6">
+                <a
+                  className="footer-white-link"
+                  href="http://www.muckleshoot.nsn.us/default.aspx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Native Indian Tribe Government
+                </a>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col s6">
+                <a
+                  className="footer-white-link"
+                  href="http://www.muckleshoottribalschool.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Tribal School
+                </a>
+              </div>
+              <div className="col s6">
+                <a
+                  className="footer-white-link"
+                  href="https://www.nwic.edu/nwic-sites/muckleshoot-campus/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Tribal College
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col s4 center-align">
+            <img
+              className="footer-logo"
+              src={Logo}
+              alt="Muckleshoot Logo"
+            ></img>
+          </div>
+          <div className="col s2 center-align">
+            <h5 className="footer-white-text-main">Hours </h5>
+            <ul>
+              <li className="footer-white-text">Monday-Friday</li>
+              <li className="footer-white-text">8 am - 5pm</li>
+            </ul>
+          </div>
+          <div className="col s2 center-align">
+            <h5 className="footer-white-text-main">Contact </h5>
+
+            <ul>
+              <li className="footer-white-text">Phone Number 253-833-7616</li>
+              <li className="footer-white-text">Fax Number 253-876-2862</li>
+              <li className="footer-white-text">
+                38037 158th Ave SE, Auburn, Wa 98092
+              </li>
+              <li className="white-link">
+                <Link to="/contact" className="footer-white-link">
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <div className="row" style={{marginbottom:"0px"}}>
+          <div>
+            <p className="white-text center-align"> © 2020 Copyright Text</p>
+          </div>
         </div>
-        </div>
-    )
-};
+      </footer>
+    </div>
+  );
+}
 
 export default Footer;
-
-{/* <li><Link to="#!" className="grey-text text-lighten-3"> Casino</Link></li>
-                    <li><Link to="#!" className="grey-text text-lighten-3"> Bingo</Link></li>
-                    <li><Link to="#!" className="grey-text text-lighten-3"> Health/Wellness</Link></li>
-                    <li><Link to="#!" className="grey-text text-lighten-3"> White River Shop</Link></li>
-                    <li><Link to="#!" className="grey-text text-lighten-3"> White River Ampitheatre</Link></li>
-                </ul> */}

@@ -1,17 +1,15 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import GrantsJumbotron from "../components/GrantsJumbotron";
+import GrantsCard4 from "../components/GrantsCard4";
 
 function Grants() {
 
-
-        
-    return (
-        <div className="container">
-            <h1>Grants</h1>
-       </div >
-
-    );
-    }
-
+  return (
+    <div className ="grants">
+  <GrantsJumbotron />
+  <GrantsCard4/>
+    </div>
+  );
+}
 
 export default Grants;

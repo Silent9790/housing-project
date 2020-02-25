@@ -1,0 +1,17 @@
+
+#teamIntroText{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5vh;
+}
+
+.teamProfileImg{
+    width: 20vh;
+    height: 20vh;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.cardTitle {
+    text-align: center;
+}

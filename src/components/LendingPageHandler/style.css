@@ -1,0 +1,25 @@
+.lending-small {
+  display: none;
+}
+.lending-normal {
+}
+
+.contact-small{
+    width: 80%;
+    margin-bottom: 5vh;
+}
+
+
+@media (max-width: 824px) {
+  .lending-small {
+    display: unset;
+  }
+  .lending-normal {
+    display: none;
+  }
+}
+@media (max-width: 780px) {
+.estimate{
+    width: 65px;
+}
+}

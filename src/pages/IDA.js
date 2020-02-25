@@ -1,18 +1,12 @@
-import Navbar from "../components/Navbar";
+import React from "react";
+import IdaJumbotron from "../components/IdaJumbotron";
 
 function Ida() {
-
-
-          
-    return (
-        <div className="container">
-            <h1>IDA</h1>
-       </div >
-
-    );
-    
-
-
-
+  return (
+    <div>
+      <IdaJumbotron />
+    </div>
+  );
 }
+
 export default Ida;

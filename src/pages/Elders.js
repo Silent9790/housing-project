@@ -1,17 +1,16 @@
-import Navbar from "../components/Navbar";
+import React from "react";
+import EldersJumbotron from "../components/EldersJumbotron";
+import EldersCards from "../components/EldersCards";
+
 
 function Elders() {
 
-    return (
-         
-        <div className="container">
-            <Navbar />
-            <h1>Elders</h1>
-       </div >
-
-    );
-
-
-
+  return (
+    <div>
+      <EldersJumbotron/>
+      <EldersCards />
+    </div>
+  );
 }
+
 export default Elders;

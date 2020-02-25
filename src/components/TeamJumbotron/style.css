@@ -1,0 +1,36 @@
+#jumboTeam{
+    background-color: #4DB6AC;
+    height: 45vh;
+    border-top: tan solid 15px;
+    border-bottom: tan solid 15px;
+}
+
+#teamImg{
+    width: 660px;
+    height: 350px;
+    float: left;
+    padding-left: 7vw;
+    padding-top: 4vh;
+}
+
+#teamTitle{
+    color: white;
+    font-weight: bold;
+    padding-top: 8vh;
+}
+
+#meetTeam{
+    color: white;
+    background-color: #B71C1C;
+    border: 0px;
+    height: 40px;
+    width: 140px;
+    margin-top: 30px;
+}
+
+#meetTeam:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #EF5350;
+    color: black;
+    cursor: pointer;
+}

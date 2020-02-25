@@ -1,0 +1,56 @@
+#missionText {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#missionText2 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  width: 60vw;
+  margin-bottom: 5vh;
+  color: rgb(105, 105, 105);
+}
+.missionCard {
+  height: 200px;
+  padding-bottom: 30;
+  text-align: "center";
+  margin-bottom: 10vh;
+  background:#4db6ac;
+}
+
+@media (max-width: 555px) {
+  .missionCard{
+    height: 230px;
+  }
+}
+@media (max-width: 496px) {
+  .missionCard{
+    height: 250px;
+  }
+}
+@media (max-width: 489px) {
+  .missionCard{
+    height: 260px;
+  }
+}
+@media (max-width: 450px) {
+  .missionCard{
+    height: 270px;
+  }
+}
+@media (max-width: 410px) {
+  .missionCard{
+    height: 290px;
+  }
+}
+@media (max-width: 405px) {
+  .missionCard{
+    height: 310px;
+  }
+}
