@@ -36,26 +36,21 @@ export default class RentalCards extends Component {
                 </div>
 
                 <h5>Rental Program Features & Benefits:</h5>
-                <ul className="collapsible">
-                    <li>
-                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Low Rent Based on Household Income</div>
-                        <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                <ul className="collection">
+                    <li className="collection-item">
+                       Low Rent Based on Household Income
                     </li>
-                    <li>
-                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Utility Allowance Based on Household Usage</div>
-                        <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <li className="collection-item">
+                       Utility Allowance Based on Household 
                     </li>
-                    <li>
-                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Garbage, Water, Sewer and Lawn Service Provided</div>
-                        <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <li className="collection-item">
+                        Garbage, Water, Sewer and Lawn Service Provided
                     </li>
-                    <li>
-                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Several ADA Homes Availible for Accessibility Needs</div>
-                        <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <li className="collection-item">
+                       Several ADA Homes Availible for Accessibility Needs
                     </li>
-                    <li>
-                        <div className="collapsible-header"><i className="material-icons">add_circle_outline</i>Special Rents for Elders, Veterans and Disabled Households</div>
-                        <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <li className="collection-item">
+                        Special Rents for Elders, Veterans and Disabled Households
                     </li>
                 </ul>
 

@@ -17,7 +17,7 @@ function Navbar() {
             ></img>
           </div>
           <div className="col s4">
-            <h5 className="">Muckleshoot Housing Authority</h5>
+            <h5>Muckleshoot Housing Authority</h5>
           </div>
 
           <div className="col s6">

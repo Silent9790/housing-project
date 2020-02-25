@@ -4,3 +4,18 @@ body{
 .page-content{
  background-color: white;
 }
+.Navbar-normal{
+
+}
+.Navbar-small{
+    display: none;
+}
+
+@media (max-width: 1286px) {
+    .Navbar-normal{
+        display: none;
+    }
+    .Navbar-small{
+        display: unset;
+    }
+  }
