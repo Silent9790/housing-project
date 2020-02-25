@@ -2,8 +2,8 @@ import React from "react";
 import "./style.css";
 import Guy from "../../pictures/placeholderman.jpg"
 import Town1 from "../../pictures/c1.jpeg";
-import Town2 from "../../pictures/c9.jpeg";
-import Town3 from "../../pictures/c4.jpeg";
+import Town2 from "../../pictures/c9-copy.jpg";
+import Town3 from "../../pictures/c4-copy.jpeg";
 import Guy5 from "../../pictures/c7.jpeg";
 import Guy6 from "../../pictures/c6.jpeg";
 import Guy7 from "../../pictures/c8.jpeg";
@@ -41,7 +41,6 @@ function TeamCards() {
                                 <div className="card-content">
                                     <a href="https://www.google.com/">JACK JOHNSON</a>
                                     <p>Position: Lord of Embers</p>
-                                    <p>Location: The Sky Fortress</p>
                                     <p>Email: jack@jack.jack</p>
                                     <p>Phone: (111) 111-1112</p>
                                 </div>
@@ -56,7 +55,6 @@ function TeamCards() {
                                 <div className="card-content">
                                     <a href="https://www.google.com/">NICK SETO</a>
                                     <p>Position: Hero</p>
-                                    <p>Location: The Mind</p>
                                     <p>Email: wow@wow.wow</p>
                                     <p>Phone: (123) 456-8008</p>
                                 </div>

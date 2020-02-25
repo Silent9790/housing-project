@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AddressCard from "../AddressCard";
 import axios from "axios";
+import "./style.css"
 
 function AddressCheck() {
   const [streetNumber, setStreetNumber] = useState();
@@ -100,7 +101,7 @@ function AddressCheck() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col s6">
+        <div className="address-check">
           <input
             type="text"
             name="streetNumber"
@@ -122,7 +123,11 @@ function AddressCheck() {
             value={zip}
             onChange={handleInputChange}
           ></input>
-          <input type="submit" value="Get address" onClick={getAddress} />
+          
+          <div className="center-align">
+          <input type="submit" className="AddressButton" value="Get address" onClick={getAddress} />
+          </div>
+
         </div>
         {address.length > 0 ? <AddressCard data={address} /> : <div />}
       </div>
