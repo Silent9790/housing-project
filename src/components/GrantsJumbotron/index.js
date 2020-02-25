@@ -14,7 +14,7 @@ function RentalJumbotron({ children }) {
         <img id="rentalImg" src={house3} alt="Rental" style = {{width: "40vw", height: "22vw" }}/>
         <div className = "titleDiv">
           <h3 id="rentalTitle">Grant Programs</h3>
-          <a href="https://drive.google.com/drive/u/0/folders/1xOQpGQW1R9FhgfPwztx7ehPvlwi8Mh6H"  rel="noopener noreferrer" target="_blank"><button id="applyNow">Apply Now</button></a>
+          <a href="https://drive.google.com/file/d/1KCCTyYqQdzCqjmdpA4R9yy6CaeqyDyZk/view?usp=sharing"  rel="noopener noreferrer" target="_blank"><button id="applyNow">Apply Now</button></a>
         </div>
       </div>
     </div>
