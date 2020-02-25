@@ -1,36 +1,21 @@
-## Native American Housing Authority web application
+Native American Housing Authority web application
+======================
+The Housing Project is an app that lets the user add applications and pdf files/policies. This app makes it easier for your tribal members to reach out! With this easy to use contact page members can send messages instantly. Housing Web application also helps interested members know what locations have available spaces. Users can create and account and login.
 
-With this project, you can: 
+Home Page
+-------------
+![alt text](https://raw.githubusercontent.com/Silent9790/housing-project/src/pictures/home.png)
 
-**Create a website for your Loan and Grants Programs
-
-Add your applications and pdf files/policies. 
-
-**Add your staff and contact page
-
-Make it easier for your tribal members to reach out! With this easy to use contact page members can send messages instantly.
-
-**Rental Page
-
-Let interested members know what locations have available spaces.
-
-**Login
-
-Users can create and account and login.
-
-
-**Check it out on Heroku
-
+Check it out on Heroku
+-------------
 https://mhauthority.herokuapp.com/
 
-**Home page
+Dev Notes
+-------------
+This web applications frontend was built with React and Materialize. 
 
-*insert image here*
+JS and Nodejs.
 
-### Dev Notes
-**This web applications frontend was built with React and Materialize. 
-**JS and Nodejs
-**Contact Form was made with Formspree
-**PDF files are hosted on GoogleDrive.
+Contact Form was made with Formspree.
 
-
+PDF files are hosted on GoogleDrive.
