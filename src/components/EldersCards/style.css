@@ -6,6 +6,14 @@
     border : solid 2px teal ;
 }
 
+.elderPdf{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.elderPdf:hover{
+    opacity: 0.85;
+}
 
 #applyNow{
     color: white;
