@@ -37,8 +37,8 @@ export default class RentalCards extends Component {
                 <strong>The forms below are used to used to determine eligibity and the approval process.</strong>
                 <br />
                 <br />
-                <div className="row">
-                  <div className="col s6">
+                <div className="elderImgWrapper">
+                  <div>
                     <a
                       href="https://drive.google.com/file/d/1YoOlWrg4INe04Y6XrcvsWHaBlMV4cwiJ/view?usp=sharing"
                       rel="noopener noreferrer"
@@ -51,7 +51,7 @@ export default class RentalCards extends Component {
                       />
                     </a>
                   </div>
-                  <div className="col s6">
+                  <div>
                     <a
                       href="https://drive.google.com/file/d/1-K8tX2fT0cxdFIvLieAlAYp_gWJDthVg/view?usp=sharing"
                       rel="noopener noreferrer"

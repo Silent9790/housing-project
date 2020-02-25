@@ -20,7 +20,7 @@ export default class RentalCards extends Component {
                     <div className="row">
                         <div className="card red darken-4">
                             <div className="card-content white-text">
-                                <span className="card-title">Grants</span>
+                                <span className="card-title" style={{ fontWeight: "bold" }}>Grants</span>
                                 <p> The Tribal Housing Program provides owner-occupant tribal members with housing rehabilitation grant up to $45,000. Grants may be used for a variety of different projects.</p>
                                 <br />
                                 <p>ELIGIBILITY: Open to tribal members whose income is currently at or below King County median income. A hair sample drug test must be taken and passed in order to qualify.</p>
@@ -38,7 +38,7 @@ export default class RentalCards extends Component {
                     <div className="row">
                         <div className="card red darken-4">
                             <div className="card-content white-text">
-                                <span className="card-title">Down Payment Assistance</span>
+                                <span className="card-title" style={{ fontWeight: "bold" }}>Down Payment Assistance</span>
                                 <p>If you're a new to the world of grants, we have the home loan experts and resources to help you on your home buying journey. MIT Housing Authority homebuyers can receive up to $45,000 in down-payment assistance.</p>
                                 <br />
                                 <p>ELIGIBILITY: Open to tribal members whose income is currently at or below King County median income. A hair sample drug test must be taken and passed in order to qualify.</p>

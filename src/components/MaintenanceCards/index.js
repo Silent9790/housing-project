@@ -22,7 +22,7 @@ export default class MaintenanceCards extends Component {
                 <div className="row">
                     <div className="card red darken-4">
                         <div className="card-content white-text">
-                            <span className="card-title">Maintenance Department</span>
+                            <span className="card-title" style={{ fontWeight: "bold" }}>Maintenance Department</span>
                             <p>The Maintenance Department services the rental homes, apartments and Muckleshoot properties.  </p><br />
                         </div>
                         <div className="card-action">

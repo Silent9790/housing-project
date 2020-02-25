@@ -7,7 +7,7 @@ function LendingAbout() {
       <div className="row">
         <div className="card red darken-4">
           <div className="card-content white-text">
-            <span className="card-title">Lending</span>
+            <span className="card-title" style={{ fontWeight: "bold" }}>Lending</span>
             <p>
               Home Loans up to $567,500 (or appraised value, whichever is less)
               at 1% interest are available for purchases within a 30-mile radius

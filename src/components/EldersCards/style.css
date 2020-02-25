@@ -6,6 +6,16 @@
     border : solid 2px teal ;
 }
 
+.elderImgWrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+    width: 60vw;
+    margin: 0 auto;
+}
+
 .elderPdf{
     max-height: 300px;
     max-width: 300px;
