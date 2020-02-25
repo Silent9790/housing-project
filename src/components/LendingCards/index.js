@@ -8,7 +8,6 @@ function LendingCards() {
   return (
     <div>
       <div className="row lending-box center-align">
-        {/* <div className="col s3"></div> */}
         <div className="Lending-cards" style={{ margin: "0 auto" }}>
           <div className="card lending-card-pdf" style={{ margin: "0 auto" }}>
             <div className="card-image">
@@ -106,7 +105,6 @@ function LendingCards() {
             </div>
           </div>
         </div>
-        {/* <div className="col s3"></div> */}
       </div>
     </div>
   );

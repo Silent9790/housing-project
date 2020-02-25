@@ -1,3 +1,33 @@
 .benefitsList {
     list-style-type: circle !important;
 }
+.Rental-cards{
+    width: 80%;
+}
+.rental-card{
+    width: 19vw;
+}
+.rental-box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rental-card-space{
+    height: 5vh;
+}
+
+.rental-cards-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 820px) {
+   .rental-card{
+       width: 165px;
+   }
+}
