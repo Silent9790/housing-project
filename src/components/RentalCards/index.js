@@ -22,7 +22,7 @@ export default class RentalCards extends Component {
           <div className="row">
             <div className="card red darken-4">
               <div className="card-content white-text">
-                <span className="card-title">Rental Housing</span>
+                <span className="card-title" style={{ fontWeight: "bold" }}>Rental Housing</span>
                 <p>
                   The Rental Housing Program provides houses and apartments to
                   eligible tribal members at low-cost, affordable rental fees.
