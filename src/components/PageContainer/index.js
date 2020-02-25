@@ -16,7 +16,10 @@ import Rentals from "../../pages/Rental";
 import Team from "../../pages/Team";
 import Login from "../../pages/Login";
 import CreateAccount from "../../pages/CreateAccount";
+import LoginSuccess from "../../pages/LoginSuccess";
 import Navbar from "../Navbar";
+import Navbarself from "../Navbar-self";
+
 import Footer from "../Footer";
 
 import "./style.css"
@@ -34,7 +37,12 @@ class PagesContainer extends Component {
     return (
       <div className="container-fluid page-content">
         <Router>
+          <div className="Navbar-normal">
           <Navbar />
+          </div>
+          <div className="Navbar-small">
+          <Navbarself />
+          </div>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/grants" component={Grants} />
@@ -46,6 +54,7 @@ class PagesContainer extends Component {
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/createaccount" component={CreateAccount} />
+            <Route exact path="/loginsuccess" component={LoginSuccess} />
             <Route exact path="/nomatch" component={NoMatch} />
 
             <Route path="*">
