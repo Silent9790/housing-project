@@ -87,7 +87,7 @@ function LendingCards() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  This is a link
+                  Download here
                 </a>
               </div>
             </div>
