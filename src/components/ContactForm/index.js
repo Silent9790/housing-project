@@ -8,7 +8,7 @@ function ContactForm() {
         id="fs-frm"
         name="simple-contact-form"
         acceptCharset="utf-8"
-        action="https://formspree.io/Gamer9310@gmail.com"
+        // action="https://formspree.io/--EMAILHERE--"
         method="post"
       >
         <fieldset id="fs-frm-inputs">

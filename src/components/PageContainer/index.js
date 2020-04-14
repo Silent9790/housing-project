@@ -29,10 +29,6 @@ class PagesContainer extends Component {
     currentPage: "Home"
   };
 
-  // handlePageChange = page => {
-  //   this.setState({ currentPage: page });
-  // };
-
   render() {
     return (
       <div className="container-fluid page-content">
